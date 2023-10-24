@@ -64,7 +64,18 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height:  80px;
     padding: 5% 10px;
+    
+/*espaço entre as img*/
+
+    .box{
+      display: block;
+      width: 25%;
+      height: 300px;
+      padding: 5% 30px;
+
+    }
 
 
 /*Destaque*/
