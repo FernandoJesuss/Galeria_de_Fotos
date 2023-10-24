@@ -13,11 +13,30 @@ nav ul {
     display: inline;
   }
   
+  /*Tamanho do botão*/
   nav a {
     display: inline-block;
-    padding: 30px;
+    padding: 8px;
     text-decoration: none;
   }
+
+/*Botões*/
+  nav button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0% 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 15px;
+    cursor: pointer;
+  }
+  
+
+
+
   
   h1 {
     margin-left: 25%;
