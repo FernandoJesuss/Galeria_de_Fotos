@@ -74,14 +74,13 @@ nav ul {
       width: 25%;
       height: 300px;
       padding: 5% 30px;
-
+      border-bottom: 1px solid #000;
     }
 
 
 /*Destaque*/
     margin-bottom: 300px;
-    
-    border-bottom: 1px solid #000;
+       
 
   }
   
