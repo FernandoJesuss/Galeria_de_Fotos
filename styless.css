@@ -1,13 +1,24 @@
+/*controla o header*/
+
+header {
+background-color: rgba(80, 80, 112, 0.548);
+padding: 40px;
+
+
+}
+
+
+
 /*linha em baixo do nav*/
 nav {
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #000;
 }
-
+/*Caixa do nav*/
 nav ul {
     list-style-type: none;
-    margin: 60;
+    margin: -3%;
     padding: 0;
     
     
@@ -44,7 +55,9 @@ nav ul {
   }
   /*Logo*/
   h1 {
-    margin-left: 25%;
+    margin-left: 15%;
+    height: ;
+    
     
   }
 
