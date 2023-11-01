@@ -119,6 +119,36 @@ nav>a {
 
 
 
+.historias {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.historia {
+  width: 300px;
+  margin: 20px;
+}
+
+.historia img {
+  width: 100%;
+}
+
+.historia h3 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.historia p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
 
 
 
