@@ -30,3 +30,51 @@
   font-size: 30px;
 }
 
+
+
+
+/*Barra onde esta o História*/
+.Hta {
+  background-color: #e4e4e75b;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
+}
+
+
+
+/* O text escrito História*/
+.Hta h2 {
+  color: #353434;
+  font-size: 30px;
+}
+
+
+
+
+
+
+.historias {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.historia {
+  width: 300px;
+  margin: 20px;
+}
+
+.historia img {
+  width: 100%;
+}
+
+.historia h3 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.historia p {
+  font-size: 16px;
+  margin-top: 10px;
+}

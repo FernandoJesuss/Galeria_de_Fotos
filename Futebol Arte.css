@@ -97,6 +97,30 @@ nav>a {
 
 
 
+/*Barra onde esta o História*/
+.Hta {
+  background-color: #e4e4e75b;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
+}
+
+
+
+/* O text escrito História*/
+.Hta h2 {
+  color: #353434;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
 
 
 
