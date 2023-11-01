@@ -63,6 +63,7 @@ nav>a {
 
 
 
+/* Deixar a Galeria centralizada*/
 .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -70,14 +71,29 @@ nav>a {
   justify-content: center;
   
 }
-
+/* Modifica o tamanho e Largura da Img*/
 .galeria img {
   width: 500px;
   height: auto;
   margin: 30px;
+  margin-top: 0px;
   
 }
 
+
+/*Barra onde esta o destaque*/
+.destaque {
+  background-color: #e4e4e75b;
+  padding: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 100px;
+  
+}
+/* O text escrito Destaque*/
+.destaque h2 {
+  color: #353434;
+  font-size: 30px;
+}
 
 
 
