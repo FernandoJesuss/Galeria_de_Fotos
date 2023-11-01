@@ -118,10 +118,12 @@ nav>a {
 
 
 
-
+/* Alinha os Itens abaixo de Hitória*/
 .historias {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .historia {
