@@ -1,35 +1,6 @@
 
-/* Deixar a Galeria centralizada*/
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  
-}
-/* Modifica o tamanho e Largura da Img*/
-.galeria img {
-  width: 500px;
-  height: auto;
-  margin: 30px;
-  
-}
 
-
-/*Barra onde esta o destaque*/
-.destaque {
-  background-color: #e4e4e75b;
-  padding: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
-  
-}
-/* O text escrito Destaque*/
-.destaque h2 {
-  color: #353434;
-  font-size: 30px;
-}
-
 
 
 
@@ -58,23 +29,48 @@
 .historias {
   display: flex;
   flex-wrap: wrap;
+  
 }
-
+/*espaçamento e tamanho da img*/ 
 .historia {
-  width: 300px;
-  margin: 20px;
+  width: 600px;
+  margin: 10px;
+  
+  
 }
 
+/*alinha a igm ao centro*/
 .historia img {
-  width: 100%;
+  width: 500px;
+  height: 400px;
+  display: block;
+  margin: auto;
+  
 }
 
 .historia h3 {
   font-size: 24px;
   margin-top: 10px;
+  align-items: center;
+  text-align: center;
 }
 
 .historia p {
   font-size: 16px;
   margin-top: 10px;
+  text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

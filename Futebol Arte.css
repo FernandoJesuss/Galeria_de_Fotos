@@ -63,32 +63,18 @@ nav>a {
 
 
 
-/* Deixar a Galeria centralizada*/
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  
-}
-/* Modifica o tamanho e Largura da Img*/
-.galeria img {
-  width: 500px;
-  height: auto;
-  margin: 30px;
-  margin-top: 0px;
-  
-}
 
 
 /*Barra onde esta o destaque*/
 .destaque {
-  background-color: #e4e4e75b;
+  background-color: #0707d15b;
   padding: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 100px;
-  
+
+
 }
+
 /* O text escrito Destaque*/
 .destaque h2 {
   color: #353434;
@@ -102,8 +88,8 @@ nav>a {
   background-color: #e4e4e75b;
   padding: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-  
+
+
 }
 
 
@@ -116,34 +102,45 @@ nav>a {
 
 
 
-
-
-/* Alinha os Itens abaixo de Hitória*/
 .historias {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+
 }
 
+/*espaçamento e tamanho da img*/
 .historia {
-  width: 300px;
-  margin: 20px;
+  width: 600px;
+  margin: 10px;
+
+
 }
 
+/*alinha a igm ao centro*/
 .historia img {
-  width: 100%;
+  width: 420px;
+  height: 430px;
+  display: block;
+  margin: auto;
+  align-items: center;
+
 }
 
 .historia h3 {
   font-size: 24px;
-  margin-top: 10px;
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
 }
 
 .historia p {
-  font-size: 16px;
+  font-size: 12px;
   margin-top: 10px;
+  text-align: center;
+
 }
+
+
 
 
 
