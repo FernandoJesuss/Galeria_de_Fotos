@@ -72,6 +72,7 @@ nav>a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 100px;
   border-radius: 15px;
+  width: 1420px;
 
 
 }
@@ -90,6 +91,7 @@ nav>a {
   padding: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 margin: 100px;
+border-radius: 15px;
 
 }
 
@@ -105,19 +107,22 @@ margin: 100px;
 
 .historias {
   display: flex;
-  flex-wrap: wrap;
-  background-position: 25%;
+  flex-wrap: wrap;  
   background-color: rgb(107, 142, 40);
   box-shadow: 0 0 30px;
   border-radius: 60px;
   width: 1400px;
+  height: auto;
+  padding: 40px;
+  margin: 100px;
 
 }
 
 /*espaçamento e tamanho da img*/
 .historia {
-  width: 400px;
+  width: 285px;
   margin: 25px;
+  height: 400px;
 
 
 }

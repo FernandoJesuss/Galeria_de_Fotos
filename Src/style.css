@@ -1,15 +1,33 @@
 
 
-  
+  /*Barra onde esta o destaque*/
+.destaque {
+  background-color: #0707d15b;
+  padding: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 100px;
+  border-radius: 15px;
+  width: 1420px;
+
+
+}
+
+/* O text escrito Destaque*/
+.destaque h2 {
+  color: #353434;
+  font-size: 30px;
+}
 
 
 
 /*Barra onde esta o História*/
 .Hta {
   background-color: #e4e4e75b;
-  padding: 20px;
+  padding: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+  border-radius: 15px;
+  width: 1420px;
+  margin: 100px;
   
 }
 
@@ -28,12 +46,14 @@
 
 .historias {
   display: flex;
-  flex-wrap: wrap;
-  background-position: 25%;
+  flex-wrap: wrap;  
   background-color: rgb(107, 142, 40);
   box-shadow: 0 0 30px;
   border-radius: 60px;
   width: 1400px;
+  height: auto;
+  padding: 40px;
+  margin: 100px;
   
 }
 /*espaçamento e tamanho da img*/ 
