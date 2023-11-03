@@ -105,21 +105,22 @@ margin: 100px;
 .historias {
   display: flex;
   flex-wrap: wrap;
+  background-color: rgb(37, 88, 88);;
 
 }
 
 /*espaçamento e tamanho da img*/
 .historia {
-  width: 600px;
-  margin: 10px;
+  width: 400px;
+  margin: 25px;
 
 
 }
 
 /*alinha a igm ao centro*/
 .historia img {
-  width: 420px;
-  height: 430px;
+  width: 300px;
+  height: 200px;
   display: block;
   margin: auto;
   align-items: center;
