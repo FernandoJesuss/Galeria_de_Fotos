@@ -30,13 +30,18 @@
   display: flex;
   flex-wrap: wrap;
   background-position: 25%;
-  background-color: rgb(37, 88, 88);
+  background-color: rgb(107, 142, 40);
+  box-shadow: 0 0 30px;
+  border-radius: 60px;
+  width: 1400px;
   
 }
 /*espaçamento e tamanho da img*/ 
 .historia {
-  width: 400px;
+  width: 285px;
   margin: 25px;
+  height: 400px;
+ 
   
   
 }
@@ -47,6 +52,7 @@
   height: 200px;
   display: block;
   margin: auto;
+  border-radius: 15px;
   
 }
 

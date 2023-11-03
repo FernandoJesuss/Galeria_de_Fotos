@@ -105,7 +105,11 @@ margin: 100px;
 .historias {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(37, 88, 88);;
+  background-position: 25%;
+  background-color: rgb(107, 142, 40);
+  box-shadow: 0 0 30px;
+  border-radius: 60px;
+  width: 1400px;
 
 }
 
@@ -123,7 +127,7 @@ margin: 100px;
   height: 200px;
   display: block;
   margin: auto;
-  align-items: center;
+  border-radius: 15px;
 
 }
 
