@@ -90,8 +90,10 @@ nav>a {
   background-color: #e4e4e75b;
   padding: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: 100px;
-border-radius: 15px;
+  margin: 100px;
+  border-radius: 15px;
+  width: 1420px;
+  margin: 100px;
 
 }
 
@@ -107,7 +109,7 @@ border-radius: 15px;
 
 .historias {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   background-color: rgb(107, 142, 40);
   box-shadow: 0 0 30px;
   border-radius: 60px;
