@@ -67,7 +67,7 @@ nav>a {
 
 /*Barra onde esta o destaque*/
 .destaque {
-  background-color: #0707d15b;
+  background-color: #033800;
   padding: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 100px;
@@ -79,7 +79,7 @@ nav>a {
 
 /* O text escrito Destaque*/
 .destaque h2 {
-  color: #353434;
+  color: #fffefe;
   font-size: 30px;
 }
 
