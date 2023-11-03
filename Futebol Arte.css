@@ -106,7 +106,7 @@ nav>a {
 }
 
 
-
+/*fundo verde do site*/
 .historias {
   display: flex;
   flex-wrap: wrap;
@@ -138,14 +138,14 @@ nav>a {
   border-radius: 15px;
 
 }
-
+/*texto em h3 titulo*/
 .historia h3 {
   font-size: 24px;
   margin-top: 50px;
   align-items: center;
   text-align: center;
 }
-
+/*Paragrafo abaixo do titulo*/
 .historia p {
   font-size: 12px;
   margin-top: 10px;
