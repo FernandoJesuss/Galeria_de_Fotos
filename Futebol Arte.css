@@ -138,6 +138,33 @@ nav>a {
 }
 
 
+
+
+
+/*Barra onde esta o Times*/
+.tm {
+  background-color: #033800;
+  padding: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 15px;
+  transform: translateY(-460px);
+  width: 1380px;
+  margin: 200px;
+  margin-top: 0;
+
+
+}
+
+
+
+/* O text escrito time*/
+.tm h2 {
+  color: #fffefe;
+  font-size: 30px;
+}
+
+
+
 /*fundo verde do site*/
 .historias {
   display: flex;
@@ -242,6 +269,79 @@ nav>a {
   text-align: center;
 
 }
+
+
+
+
+
+/*fundo verde time embaixo de time*/
+.times {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(107, 142, 40);
+  box-shadow: 0 0 30px;
+  border-radius: 60px;
+  height: auto;
+  padding: 30px;
+  transform: translateY(-550px);
+  width: 1380px;
+  margin: 200px;
+  margin-top: 0;
+  
+
+}
+
+/*espaçamento e tamanho da img*/
+.time {
+  width: 285px;
+  margin: 25px;
+  height: 400px;
+
+
+}
+
+/*alinha a igm ao centro*/
+.time img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+
+}
+
+/*texto em h3 titulo*/
+.time h3 {
+  font-size: 24px;
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+
+  
+}
+
+/*Paragrafo abaixo do titulo*/
+.time p {
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
