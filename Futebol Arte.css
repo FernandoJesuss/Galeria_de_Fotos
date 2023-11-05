@@ -17,7 +17,6 @@ header {
   justify-content: space-around;
   align-items: center;
 
-
 }
 
 .headerNav {
@@ -44,7 +43,6 @@ a {
 .headerContent {
   display: flex;
   align-items: center;
-
   gap: 20px;
 }
 
@@ -59,10 +57,6 @@ nav {
   justify-content: space-around;
   align-items: center;
   transform: translateY(-200px);
-
-
-
-
   margin-top: 0;
 
 }
@@ -71,19 +65,16 @@ nav>a {
   color: black;
 }
 
-
 /*Barra onde esta o Eventos*/
 .destaque {
   background-color: #033800;
   padding: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   border-radius: 60px;
+  border-radius: 60px;
   width: 1380px;
   margin: 200px;
   margin-top: 0px;
   transform: translateY(-20px);
-  
-
 
 }
 
@@ -91,11 +82,8 @@ nav>a {
 .destaque h2 {
   color: #fffefe;
   font-size: 30px;
- 
-  
-  
-}
 
+}
 
 /*Barra onde esta o campos*/
 .campos {
@@ -108,7 +96,6 @@ nav>a {
   margin: 200px;
   margin-top: 0;
 
-
 }
 
 /* O text escrito Destaque*/
@@ -116,8 +103,6 @@ nav>a {
   color: #fffefe;
   font-size: 30px;
 }
-
-
 
 /*Barra onde esta o História*/
 .Hta {
@@ -130,20 +115,13 @@ nav>a {
   margin: 200px;
   margin-top: 0;
 
-
 }
-
-
 
 /* O text escrito História*/
 .Hta h2 {
   color: #fffefe;
   font-size: 30px;
 }
-
-
-
-
 
 /*Barra onde esta o Times*/
 .tm {
@@ -156,17 +134,13 @@ nav>a {
   margin: 200px;
   margin-top: 0;
 
-
 }
-
-
 
 /* O text escrito time*/
 .tm h2 {
   color: #fffefe;
   font-size: 30px;
 }
-
 
 
 /*fundo verde do site*/
@@ -191,7 +165,6 @@ nav>a {
   width: 285px;
   margin: 25px;
   height: 400px;
-
 
 }
 
@@ -236,7 +209,6 @@ nav>a {
   margin: 200px;
   margin-top: 0;
 
-
 }
 
 /*espaçamento e tamanho da img*/
@@ -244,7 +216,6 @@ nav>a {
   width: 285px;
   margin: 25px;
   height: 400px;
-
 
 }
 
@@ -275,9 +246,6 @@ nav>a {
 }
 
 
-
-
-
 /*fundo verde time embaixo de time*/
 .times {
   display: flex;
@@ -292,7 +260,6 @@ nav>a {
   margin: 200px;
   margin-top: 0;
 
-
 }
 
 /*espaçamento e tamanho da img*/
@@ -300,7 +267,6 @@ nav>a {
   width: 285px;
   margin: 25px;
   height: 400px;
-
 
 }
 
@@ -321,7 +287,6 @@ nav>a {
   align-items: center;
   text-align: center;
 
-
 }
 
 /*Paragrafo abaixo do titulo*/
@@ -331,8 +296,6 @@ nav>a {
   text-align: center;
 
 }
-
-
 
 
 /*fundo verde garotos embaixo de garotos*/
@@ -348,7 +311,6 @@ nav>a {
   width: 1380px;
   margin: 200px;
   margin-top: 0;
-  
 
 }
 
@@ -357,7 +319,6 @@ nav>a {
   width: 285px;
   margin: 25px;
   height: 400px;
-
 
 }
 
@@ -390,56 +351,48 @@ nav>a {
 }
 
 
-
-
-
-
-
-
 footer {
   background-color: #033800;
   color: white;
   padding: 20px;
   text-align: center;
   border-radius: 1px 1px 10px 10px;
-  margin: 200px;  
+  margin: 200px;
   width: 1400px;
   display: block;
-  transform: translateY(-1010px);  
+  transform: translateY(-1010px);
   font-size: 14px;
-  
-  
+
+
 }
 
 .social-media {
   margin-bottom: 10px;
-  
+
 }
 
 .social-media a {
   display: inline-block;
   margin-right: 10px;
-  
+
 }
 
 .social-media img {
   width: 30px;
   height: 30px;
-  
-  
+
 }
 
-
-
-
-html, body {
+html,
+body {
   height: 100%;
 }
 
-
 footer {
-  height: 50px; /* Altura do rodapé */
-  margin-top: -50px; /* Altura do rodapé */
+  height: 50px;
+  /* Altura do rodapé */
+  margin-top: -50px;
+  /* Altura do rodapé */
 }
 
 
