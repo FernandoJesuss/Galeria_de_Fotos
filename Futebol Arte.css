@@ -36,8 +36,11 @@ a {
 
 /*Imagem do logo*/
 .headerImage {
-  width: 140px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
+  transform: translate(-270px);
+  
+  
 }
 
 .headerContent {
