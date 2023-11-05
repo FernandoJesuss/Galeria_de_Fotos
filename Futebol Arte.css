@@ -390,23 +390,8 @@ nav>a {
 }
 
 
-/*
-footer {
-    
-  
-  
-  
-  
-  
-  
-  
- 
-  
-  
-  
-}
 
-*/
+
 
 
 
@@ -416,18 +401,18 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
-  border-radius: 60px;
+  border-radius: 1px 1px 10px 10px;
   margin: 200px;  
-  width: 1395px;
+  width: 1400px;
   display: block;
-  transform: translateY(-970px);  
+  transform: translateY(-1010px);  
   font-size: 14px;
   
   
 }
 
 .social-media {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   
 }
 
@@ -451,9 +436,6 @@ html, body {
   height: 100%;
 }
 
-.conteudo {
-  min-height: 100%;
-}
 
 footer {
   height: 50px; /* Altura do rodapé */
