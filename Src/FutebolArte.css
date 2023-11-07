@@ -24,11 +24,13 @@ header {
   align-items: center;
   gap: 20px;
   transform: translate(200px);
+  
 }
 
 a {
   text-decoration: none;
   color: white;
+  
 }
 
 .headerTitle {
@@ -64,9 +66,10 @@ nav {
   margin-top: 0;
 
 }
-
+/*Altera a cor do texto do Nav*/
 nav>a {
-  color: black;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*Barra onde esta o Eventos*/
