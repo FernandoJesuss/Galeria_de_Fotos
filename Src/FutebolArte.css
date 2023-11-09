@@ -41,8 +41,7 @@ a {
 .headerImage {
   width: 100px;
   height: 100px;
-  transform: translate(-270px);
-  
+  transform: translate(-270px); 
   
 }
 
@@ -105,13 +104,13 @@ nav>a {
 
 }
 
-/* O text escrito Destaque*/
+/* O text escrito Campo*/
 .campos h2 {
-  color: #fffefe;
+  color: #fff;
   font-size: 30px;
 }
 
-/*Barra onde esta o História*/
+/*Barra onde esta o Resenha*/
 .Hta {
   background-color: #033800;
   padding: 30px;
@@ -124,7 +123,7 @@ nav>a {
 
 }
 
-/* O text escrito História*/
+/* O text escrito Resenha*/
 .Hta h2 {
   color: #fffefe;
   font-size: 30px;
@@ -151,7 +150,7 @@ nav>a {
 
 
 /*fundo verde do site*/
-.historias {
+.Evs {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(107, 142, 40);
@@ -168,7 +167,7 @@ nav>a {
 }
 
 /*espaçamento e tamanho da img*/
-.historia {
+.Ev {
   width: 285px;
   margin: 25px;
   height: 400px;
@@ -176,7 +175,7 @@ nav>a {
 }
 
 /*alinha a igm ao centro*/
-.historia img {
+.Ev img {
   width: 300px;
   height: 200px;
   display: block;
@@ -186,7 +185,7 @@ nav>a {
 }
 
 /*texto em h3 titulo*/
-.historia h3 {
+.Ev h3 {
   font-size: 24px;
   margin-top: 50px;
   align-items: center;
@@ -194,7 +193,7 @@ nav>a {
 }
 
 /*Paragrafo abaixo do titulo*/
-.historia p {
+.Ev p {
   font-size: 12px;
   margin-top: 10px;
   text-align: center;
@@ -203,7 +202,7 @@ nav>a {
 
 
 /*fundo verde galeria embaixo de campo*/
-.galerias {
+.Cmps {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(107, 142, 40);
@@ -219,7 +218,7 @@ nav>a {
 }
 
 /*espaçamento e tamanho da img*/
-.galeria {
+.Cmp {
   width: 285px;
   margin: 25px;
   height: 400px;
@@ -227,7 +226,7 @@ nav>a {
 }
 
 /*alinha a igm ao centro*/
-.galeria img {
+.Cmp img {
   width: 300px;
   height: 200px;
   display: block;
@@ -237,7 +236,7 @@ nav>a {
 }
 
 /*texto em h3 titulo*/
-.galeria h3 {
+.Cmp h3 {
   font-size: 24px;
   margin-top: 50px;
   align-items: center;
@@ -245,7 +244,7 @@ nav>a {
 }
 
 /*Paragrafo abaixo do titulo*/
-.galeria p {
+.Cmp p {
   font-size: 12px;
   margin-top: 10px;
   text-align: center;
@@ -306,13 +305,13 @@ nav>a {
 
 
 /*fundo verde garotos embaixo de garotos*/
-.garotos {
+.Resenhas {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(107, 142, 40);
   box-shadow: 0 0 30px;
   border-radius: 60px;
-  height: auto;
+  height: 1252px;
   padding: 30px;
   transform: translateY(-790px);
   width: 1380px;
@@ -322,7 +321,7 @@ nav>a {
 }
 
 /*espaçamento e tamanho da img*/
-.garoto {
+.Resenha {
   width: 285px;
   margin: 25px;
   height: 400px;
@@ -330,64 +329,41 @@ nav>a {
 }
 
 /*alinha a igm ao centro*/
-.garoto img {
+.Resenha img {
   width: 300px;
   height: 200px;
   display: block;
   margin: auto;
   border-radius: 15px;
-
 }
 
 /*texto em h3 titulo*/
-.garoto h3 {
+.Resenha h3 {
   font-size: 24px;
   margin-top: 50px;
   align-items: center;
   text-align: center;
-
-
 }
 
 /*Paragrafo abaixo do titulo*/
-.garoto p {
+.Resenha p {
   font-size: 12px;
   margin-top: 10px;
   text-align: center;
-
 }
 
-
+/* Estilizando o footer pag fundo */
 footer {
-  background-color: #033800;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  border-radius: 1px 1px 10px 10px;
-  margin: 200px;
-  width: 1400px;
+  
+  border-radius: 0px 0px 60px 60px;
+  background: #033800;    
+  height: 300px;
+  padding: 40px;  
   display: block;
-  transform: translateY(-1010px);
-  font-size: 14px;
-
-
-}
-
-.social-media {
-  margin-bottom: 10px;
-
-}
-
-.social-media a {
-  display: inline-block;
-  margin-right: 10px;
-
-}
-
-.social-media img {
-  width: 30px;
-  height: 30px;
-
+  width: 1360px;
+  margin: 200px;
+  margin-top: 0px;  
+  transform: translateY(-1200px);
 }
 
 html,
@@ -396,12 +372,63 @@ body {
   background-color:rgba(4, 94, 39, 0.712);
 }
 
-footer {
-  height: 50px;
-  /* Altura do rodapé */
-  margin-top: -50px;
-  /* Altura do rodapé */
+.Midias {
+  width: 100px;
+  height: 250px;
+  transform: translate(-270px);
+  padding: 10px;
+
 }
+
+/*Texto em h4 no footer WebSites*/
+
+.Midia h4 {
+display: flex;
+  color: #fff;
+  font-size: 25px;
+  align-items: center;
+  margin-left: 922px;
+  margin-top: -156px;
+}
+
+/*Texto do Paragrafo WebSites*/
+.Midia a {
+  display: flex;
+  margin-left: 922px;
+  color: aqua;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*Img Logo footer*/
+.Midia img {
+  width: 100px;
+  height: 100px;
+  transform: translate(450px);
+  margin-bottom: 80px;
+  margin-top: -6px;
+}
+
+/*Altera Redes Sociais Icones*/
+.MidiaSociais {
+
+  width: 100px;
+  height: 100px;
+  transform: translate(1250px);
+  margin-top: -150px;
+}
+
+
+.MidiaSociais p {
+text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+
+
+
+
 
 
 /*
