@@ -418,11 +418,11 @@ display: flex;
 }
 
 
-.MidiaSociais p {
-text-align: center;
-justify-content: center;
-align-items: center;
-display: flex;
+.Final  {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
 
 }
 
