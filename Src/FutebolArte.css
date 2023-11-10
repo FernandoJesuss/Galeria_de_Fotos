@@ -388,15 +388,18 @@ display: flex;
   font-size: 25px;
   align-items: center;
   margin-left: 922px;
-  margin-top: -156px;
+  margin-top: -170px;
+  margin-bottom: 11px;
 }
 
 /*Texto do Paragrafo WebSites*/
 .Midia a {
   display: flex;
   margin-left: 922px;
-  color: aqua;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#FFF; 
+  font-family: Poppins;
+  margin-bottom: 11px;
+  
 
 }
 /*Img Logo footer*/
@@ -408,21 +411,50 @@ display: flex;
   margin-top: -6px;
 }
 
-/*Altera Redes Sociais Icones*/
-.MidiaSociais {
-
-  width: 100px;
+/*Altera texto Redes Sociais Icones*/
+.MidiaSociais h4 {
+color: #f71bb5;
+  width: 140px;
   height: 100px;
-  transform: translate(1250px);
-  margin-top: -150px;
+  transform: translate(1300px);
+  margin-top: -200px;
+  margin-bottom: 16px;
+}
+/*Icone rede Sociais*/
+.MidiaSociais li{
+  
+  width: 140px;
+  height: 100px;
+  transform: translate(1300px);
+  margin-top: -86px;
 }
 
 
-.Final  {
-  color: #FFF;
+
+/*Todos os Direitos*/
+.Final
+,hr  {
+  width: 1000px;
+  color: #fefeff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  margin: 160px;
+  margin-bottom: -150px;
+  transform: translate(240px);
+  
+
+}
+
+/*Paragrafo*/
+.Finais{
+width: 200px;
+  color: #df1e1e;
   text-align: center;
   font-family: Poppins;
   font-size: 12px;
+  margin-top: -70px;  
+  transform: translate(410px);
 
 }
 
