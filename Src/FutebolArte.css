@@ -24,13 +24,13 @@ header {
   align-items: center;
   gap: 20px;
   transform: translate(200px);
-  
+
 }
 
 a {
   text-decoration: none;
   color: white;
-  
+
 }
 
 .headerTitle {
@@ -41,8 +41,8 @@ a {
 .headerImage {
   width: 100px;
   height: 100px;
-  transform: translate(-270px); 
-  
+  transform: translate(-270px);
+
 }
 
 .headerContent {
@@ -65,9 +65,10 @@ nav {
   margin-top: 0;
 
 }
+
 /*Altera a cor do texto do Nav*/
 nav>a {
-  color:white;
+  color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -354,86 +355,109 @@ nav>a {
 
 /* Estilizando o footer pag fundo */
 footer {
-  
+
   border-radius: 0px 0px 60px 60px;
-  background: #033800;    
+  background: #033800;
   height: 300px;
-  padding: 40px;  
+  padding: 40px;
   display: block;
   width: 1360px;
   margin: 200px;
-  margin-top: 0px;  
+  margin-top: 0px;
   transform: translateY(-1200px);
 }
 
 html,
 body {
   height: 100%;
-  background-color:rgba(4, 94, 39, 0.712);
+  background-color: rgba(4, 94, 39, 0.712);
 }
 
-.Midias {
-  width: 100px;
-  height: 250px;
+.Empresas {
   transform: translate(-270px);
-  padding: 10px;
+
+}
+
+/*Img Logo footer*/
+.Empresa img {
+  width: 100px;
+  height: 100px;
+  transform: translate(450px);
+  margin-bottom: -214px;
+  display: block;
+  position: relative;
+  bottom: -50px;
+}
+
+/*Paragrafo*/
+.Empresa p {
+  width: 300px;
+  color: rgb(134, 23, 78);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  margin-top: 220px;
+  transform: translate(360px);
+  display: block;
+  position: relative;
+  bottom: -50px;
 
 }
 
 /*Texto em h4 no footer WebSites*/
 
-.Midia h4 {
-display: flex;
-  color: #fff;
-  font-size: 25px;
+.SiteNav h4 {
+  display: flex;
+  color: #fefeff;
+  font-size: 18px;
+  font-family: Poppins;
   align-items: center;
   margin-left: 922px;
-  margin-top: -170px;
+  margin-top: -130px;
   margin-bottom: 11px;
+  display: block;
+
 }
 
 /*Texto do Paragrafo WebSites*/
-.Midia a {
+.SiteNav a {
   display: flex;
   margin-left: 922px;
-  color:#FFF; 
+  color: #FFF;
   font-family: Poppins;
   margin-bottom: 11px;
-  
+  font-size: 12px;
+  display: block;
+}
 
-}
-/*Img Logo footer*/
-.Midia img {
-  width: 100px;
-  height: 100px;
-  transform: translate(450px);
-  margin-bottom: 80px;
-  margin-top: -6px;
-}
+
 
 /*Altera texto Redes Sociais Icones*/
 .MidiaSociais h4 {
-color: #f71bb5;
+  color: #fefeff;
+  font-family: Poppins;
+  font-size: 18px;
   width: 140px;
   height: 100px;
   transform: translate(1300px);
-  margin-top: -200px;
+  margin-top: -190px;
   margin-bottom: 16px;
+  display: block;
 }
+
 /*Icone rede Sociais*/
-.MidiaSociais li{
-  
-  width: 140px;
-  height: 100px;
+.MidiaSociais li {
+  width: 100px;
+  height: 30px;
   transform: translate(1300px);
   margin-top: -86px;
+  gap: 11px;
+  display: flex;
 }
 
-
-
 /*Todos os Direitos*/
-.Final
-,hr  {
+.Copy,
+hr {
   width: 1000px;
   color: #fefeff;
   text-align: center;
@@ -442,21 +466,9 @@ color: #f71bb5;
   margin: 160px;
   margin-bottom: -150px;
   transform: translate(240px);
-  
-
+  display: block;
 }
 
-/*Paragrafo*/
-.Finais{
-width: 200px;
-  color: #df1e1e;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 12px;
-  margin-top: -70px;  
-  transform: translate(410px);
-
-}
 
 
 
