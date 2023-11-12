@@ -1,8 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Poppins;
 }
 
 /*altera headrer onde esta o logo*/
@@ -29,12 +28,12 @@ header {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #fefeff;
 
 }
 
 .headerTitle {
-  color: white;
+  color: #fefeff;
 }
 
 /*Imagem do logo*/
@@ -56,7 +55,7 @@ nav {
   width: 1420px;
   height: 57px;
   border-radius: 15px;
-  background-color: #d9d9d98f;
+  background-color: #B7CFAB;
   margin: 200px;
   display: flex;
   justify-content: space-around;
@@ -68,15 +67,15 @@ nav {
 
 /*Altera a cor do texto do Nav*/
 nav>a {
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fefeff;
+  font-family: Poppins;
 }
 
 /*Barra onde esta o Eventos*/
 .destaque {
   background-color: #033800;
   padding: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Poppins;
   border-radius: 60px;
   width: 1380px;
   margin: 200px;
@@ -96,7 +95,7 @@ nav>a {
 .campos {
   background-color: #033800;
   padding: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Poppins;
   border-radius: 60px;
   transform: translateY(-238px);
   width: 1380px;
@@ -115,7 +114,7 @@ nav>a {
 .Hta {
   background-color: #033800;
   padding: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Poppins;
   border-radius: 60px;
   transform: translateY(-680px);
   width: 1380px;
@@ -134,7 +133,7 @@ nav>a {
 .tm {
   background-color: #033800;
   padding: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Poppins;
   border-radius: 60px;
   transform: translateY(-460px);
   width: 1380px;
@@ -370,7 +369,7 @@ footer {
 html,
 body {
   height: 100%;
-  background-color: rgba(4, 94, 39, 0.712);
+  background-color: #E0E9DB;
 }
 
 .Empresas {
@@ -391,8 +390,8 @@ body {
 
 /*Paragrafo*/
 .Empresa p {
-  width: 300px;
-  color: rgb(134, 23, 78);
+  width: 400px;
+  color: #fefeff;
   text-align: center;
   font-family: Poppins;
   font-size: 13px;
@@ -423,7 +422,7 @@ body {
 .SiteNav a {
   display: flex;
   margin-left: 922px;
-  color: #FFF;
+  color: #fefeff;
   font-family: Poppins;
   margin-bottom: 11px;
   font-size: 12px;
