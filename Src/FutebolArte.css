@@ -9,12 +9,13 @@ header {
   background-color: #033800;
   margin: 200px;
   margin-top: 0;
-  width: 1420px;
+  width: 1440px;
   height: 135px;
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 
 }
 
@@ -52,7 +53,7 @@ a {
 
 /*altera a barra de navegação*/
 nav {
-  width: 1420px;
+  width: 1440px;
   height: 57px;
   border-radius: 15px;
   background-color: #B7CFAB;
@@ -63,6 +64,11 @@ nav {
   transform: translateY(-200px);
   margin-top: 0;
 
+
+
+
+position: fixed;
+z-index: 100;
 }
 
 /*Altera a cor do texto do Nav*/
@@ -474,11 +480,27 @@ hr {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 section {
   width: auto;
   height: 500px;
-
+/*
   background-color: #ce1111;
 
   display: flex;
