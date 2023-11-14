@@ -488,6 +488,7 @@ margin-right: 25px;
 
 
 
+
 }
 
 .Flip-Card-inner {
@@ -497,11 +498,12 @@ height: 100%;
 text-align: center;
 transition: transform 0.8s;
 transform-style: preserve-3d;
-
+color: aqua;
 }
 
 .Flip-Card:hover .Flip-Card-inner {
   transform: rotateY(-180deg);
+ 
 }
 
 
@@ -521,14 +523,33 @@ background-color: #121212;
 
 .Flip-Card-Back {
   transform: rotateY(180deg);
+  color: aqua;
+ 
+ 
 
 }
 
 
+.Flip-Card-Card img{
+
+width: 100%;
+height: 100%;
+
+
+
+}
+
+
+.Box-Cards { 
+/* background-color: aquamarine; */
+flex-direction: ;
+display: flex;
+justify-content: center;
 
 
 
 
+}
 
 
 
