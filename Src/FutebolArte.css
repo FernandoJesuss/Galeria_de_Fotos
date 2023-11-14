@@ -542,7 +542,7 @@ height: 100%;
 
 .Box-Cards { 
 /* background-color: aquamarine; */
-flex-direction: ;
+
 display: flex;
 justify-content: center;
 
