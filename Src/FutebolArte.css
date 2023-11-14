@@ -1,22 +1,29 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Poppins;
+  scroll-behavior: smooth;
 }
 
 /*altera headrer onde esta o logo*/
-header {
-  background-color: #033800;
-  margin: 200px;
-  margin-top: 0;
-  width: 1420px;
+.BoxHeader {
+  background-color: #033800;  
+  width: 1440px;
   height: 135px;
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
 
+header {
+display: flex;
+flex-direction: column;
+position: fixed;
+align-items: center;
+z-index: 3;
+width: 100%;
+top: 0;
 }
 
 .headerNav {
@@ -24,15 +31,16 @@ header {
   align-items: center;
   gap: 20px;
   transform: translate(200px);
+
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #fefeff;
 }
 
 .headerTitle {
-  color: white;
+  color: #fefeff;
 }
 
 /*Imagem do logo*/
@@ -40,8 +48,7 @@ a {
   width: 100px;
   height: 100px;
   transform: translate(-270px);
-  
-  
+
 }
 
 .headerContent {
@@ -52,76 +59,75 @@ a {
 
 /*altera a barra de navegação*/
 nav {
-  width: 1420px;
+  width: 1440px;
   height: 57px;
   border-radius: 15px;
-  background-color: #d9d9d98f;
-  margin: 200px;
+  background-color: #B7CFAB;
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
-  transform: translateY(-200px);
-  margin-top: 0;
-
 }
 
+/*Altera a cor do texto do Nav*/
 nav>a {
-  color: black;
+  color: #fefeff;
+  font-family: Poppins;
 }
 
 /*Barra onde esta o Eventos*/
 .destaque {
   background-color: #033800;
   padding: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Poppins;
   border-radius: 60px;
   width: 1380px;
-  margin: 200px;
-  margin-top: 0px;
-  transform: translateY(-20px);
-
+  margin: 210px;
 }
 
 /* O text escrito Eventos*/
 .destaque h2 {
   color: #fffefe;
   font-size: 30px;
+}
 
+
+#destaque {
+margin-top: 260px;
 }
 
 /*Barra onde esta o campos*/
 .campos {
   background-color: #033800;
   padding: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Poppins;
   border-radius: 60px;
-  transform: translateY(-238px);
+  transform: translateY(-180px);
   width: 1380px;
-  margin: 200px;
+  margin: 210px;
   margin-top: 0;
-
 }
 
-/* O text escrito Destaque*/
+/* O text escrito Campo*/
 .campos h2 {
-  color: #fffefe;
+  color: #fff;
   font-size: 30px;
 }
 
-/*Barra onde esta o História*/
+/*Barra onde esta o Resenha*/
 .Hta {
   background-color: #033800;
   padding: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Poppins;
   border-radius: 60px;
   transform: translateY(-680px);
   width: 1380px;
-  margin: 200px;
+  margin: 210px;
   margin-top: 0;
 
 }
 
-/* O text escrito História*/
+/* O text escrito Resenha*/
 .Hta h2 {
   color: #fffefe;
   font-size: 30px;
@@ -131,11 +137,11 @@ nav>a {
 .tm {
   background-color: #033800;
   padding: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Poppins;
   border-radius: 60px;
   transform: translateY(-460px);
   width: 1380px;
-  margin: 200px;
+  margin: 210px;
   margin-top: 0;
 
 }
@@ -146,26 +152,22 @@ nav>a {
   font-size: 30px;
 }
 
-
 /*fundo verde do site*/
-.historias {
+.Evs {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(107, 142, 40);
   box-shadow: 0 0 30px;
   border-radius: 60px;
-
   height: auto;
-  padding: 30px;
-  transform: translateY(-130px);
+  padding: 30px;  
   width: 1380px;
-  margin: 200px;
-  margin-top: 0;
-
+  margin: 210px;
+  margin-top: -100px;
 }
 
 /*espaçamento e tamanho da img*/
-.historia {
+.Ev {
   width: 285px;
   margin: 25px;
   height: 400px;
@@ -173,7 +175,7 @@ nav>a {
 }
 
 /*alinha a igm ao centro*/
-.historia img {
+.Ev img {
   width: 300px;
   height: 200px;
   display: block;
@@ -183,7 +185,7 @@ nav>a {
 }
 
 /*texto em h3 titulo*/
-.historia h3 {
+.Ev h3 {
   font-size: 24px;
   margin-top: 50px;
   align-items: center;
@@ -191,16 +193,15 @@ nav>a {
 }
 
 /*Paragrafo abaixo do titulo*/
-.historia p {
+.Ev p {
   font-size: 12px;
   margin-top: 10px;
   text-align: center;
 
 }
-
 
 /*fundo verde galeria embaixo de campo*/
-.galerias {
+.Cmps {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(107, 142, 40);
@@ -208,15 +209,14 @@ nav>a {
   border-radius: 60px;
   height: auto;
   padding: 30px;
-  transform: translateY(-350px);
-  width: 1380px;
-  margin: 200px;
+  transform: translateY(-350px);  
   margin-top: 0;
-
+  width: 1380px;
+  margin: 210px;
 }
 
 /*espaçamento e tamanho da img*/
-.galeria {
+.Cmp {
   width: 285px;
   margin: 25px;
   height: 400px;
@@ -224,7 +224,7 @@ nav>a {
 }
 
 /*alinha a igm ao centro*/
-.galeria img {
+.Cmp img {
   width: 300px;
   height: 200px;
   display: block;
@@ -234,7 +234,7 @@ nav>a {
 }
 
 /*texto em h3 titulo*/
-.galeria h3 {
+.Cmp h3 {
   font-size: 24px;
   margin-top: 50px;
   align-items: center;
@@ -242,13 +242,12 @@ nav>a {
 }
 
 /*Paragrafo abaixo do titulo*/
-.galeria p {
+.Cmp p {
   font-size: 12px;
   margin-top: 10px;
   text-align: center;
 
 }
-
 
 /*fundo verde time embaixo de time*/
 .times {
@@ -259,10 +258,10 @@ nav>a {
   border-radius: 60px;
   height: auto;
   padding: 30px;
-  transform: translateY(-570px);
-  width: 1380px;
-  margin: 200px;
+  transform: translateY(-570px); 
   margin-top: 0;
+  width: 1380px;
+  margin: 210px;
 
 }
 
@@ -301,25 +300,24 @@ nav>a {
 
 }
 
-
 /*fundo verde garotos embaixo de garotos*/
-.garotos {
+.Resenhas {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(107, 142, 40);
   box-shadow: 0 0 30px;
   border-radius: 60px;
-  height: auto;
+  height: 1252px;
   padding: 30px;
-  transform: translateY(-790px);
-  width: 1380px;
-  margin: 200px;
+  transform: translateY(-790px); 
   margin-top: 0;
+  width: 1380px;
+  margin: 210px;
 
 }
 
 /*espaçamento e tamanho da img*/
-.garoto {
+.Resenha {
   width: 285px;
   margin: 25px;
   height: 400px;
@@ -327,85 +325,170 @@ nav>a {
 }
 
 /*alinha a igm ao centro*/
-.garoto img {
+.Resenha img {
   width: 300px;
   height: 200px;
   display: block;
   margin: auto;
   border-radius: 15px;
-
 }
 
 /*texto em h3 titulo*/
-.garoto h3 {
+.Resenha h3 {
   font-size: 24px;
   margin-top: 50px;
   align-items: center;
   text-align: center;
-
-
 }
 
 /*Paragrafo abaixo do titulo*/
-.garoto p {
+.Resenha p {
   font-size: 12px;
   margin-top: 10px;
   text-align: center;
-
 }
 
-
+/* Estilizando o footer pag fundo */
 footer {
-  background-color: #033800;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  border-radius: 1px 1px 10px 10px;
-  margin: 200px;
-  width: 1400px;
-  display: block;
-  transform: translateY(-1010px);
-  font-size: 14px;
-
-
-}
-
-.social-media {
-  margin-bottom: 10px;
-
-}
-
-.social-media a {
-  display: inline-block;
-  margin-right: 10px;
-
-}
-
-.social-media img {
-  width: 30px;
-  height: 30px;
+  border-radius: 0px 0px 60px 60px;
+  background: #033800;
+  height: 300px;
+  padding: 40px;
+  display: block;  
+  margin-top: 0px;
+  transform: translateY(-1200px);
+  width: 1360px;
+  margin: 210px;  
 
 }
 
 html,
 body {
   height: 100%;
-  background-color:rgba(4, 94, 39, 0.712);
+  background-color: #E0E9DB;
 }
 
-footer {
-  height: 50px;
-  /* Altura do rodapé */
-  margin-top: -50px;
-  /* Altura do rodapé */
+.Empresas {
+  transform: translate(-270px);
+
 }
+
+/*Img Logo footer*/
+.Empresa img {
+  width: 100px;
+  height: 100px;
+  transform: translate(450px);
+  margin-bottom: -214px;
+  display: block;
+  position: relative;
+  bottom: -50px;
+}
+
+/*Paragrafo*/
+.Empresa p {
+  width: 400px;
+  color: #fefeff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  margin-top: 220px;
+  transform: translate(360px);
+  display: block;
+  position: relative;
+  bottom: -50px;
+
+}
+
+/*Texto em h4 no footer WebSites*/
+
+.SiteNav h4 {
+  display: flex;
+  color: #fefeff;
+  font-size: 18px;
+  font-family: Poppins;
+  align-items: center;
+  margin-left: 922px;
+  margin-top: -130px;
+  margin-bottom: 11px;
+  display: block;
+
+}
+
+/*Texto do Paragrafo WebSites*/
+.SiteNav a {
+  display: flex;
+  margin-left: 922px;
+  color: #fefeff;
+  font-family: Poppins;
+  margin-bottom: 11px;
+  font-size: 12px;
+  display: block;
+}
+
+/*Altera texto Redes Sociais Icones*/
+.MidiaSociais h4 {
+  color: #fefeff;
+  font-family: Poppins;
+  font-size: 18px;
+  width: 140px;
+  height: 100px;
+  transform: translate(1300px);
+  margin-top: -190px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+/*Icone rede Sociais*/
+.MidiaSociais li {
+  width: 100px;
+  height: 30px;
+  transform: translate(1300px);
+  margin-top: -86px;
+  gap: 11px;
+  display: flex;
+}
+
+/*Todos os Direitos*/
+.Copy,
+hr {
+  width: 1000px;
+  color: #fefeff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  margin: 160px;
+  margin-bottom: -150px;
+  transform: translate(240px);
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
 section {
   width: auto;
   height: 500px;
-
+/*
   background-color: #ce1111;
 
   display: flex;
