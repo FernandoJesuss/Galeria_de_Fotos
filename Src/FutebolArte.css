@@ -60,6 +60,7 @@ a {
 
 /*altera a barra de navegação*/
 nav {
+  font-size: 30px;
   width: 1440px;
   height: 57px;
   border-radius: 15px;
@@ -71,10 +72,12 @@ nav {
 }
 
 /*Altera a cor do texto do Nav*/
-nav>a {
-  color: #fefeff;
+nav>a:hover {
+  
   font-family: Poppins;
+  color: #d81c6a;
 }
+
 
 /*Barra onde esta o Eventos*/
 .destaque {
@@ -551,6 +554,32 @@ hr {
   justify-content: center;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
