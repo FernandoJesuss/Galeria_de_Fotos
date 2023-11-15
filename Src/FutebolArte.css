@@ -7,24 +7,24 @@
 
 /*altera headrer onde esta o logo*/
 .BoxHeader {
-  background-color: #033800;  
+  background-color: #033800;
   width: 1440px;
   height: 135px;
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+
 }
 
 header {
-display: flex;
-flex-direction: column;
-position: fixed;
-align-items: center;
-z-index: 3;
-width: 100%;
-top: 0;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  z-index: 3;
+  width: 100%;
+  top: 0;
 }
 
 .headerNav {
@@ -64,7 +64,7 @@ nav {
   height: 57px;
   border-radius: 15px;
   background-color: #B7CFAB;
-  
+
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -84,7 +84,9 @@ nav>a {
   border-radius: 60px;
   width: 1380px;
   margin: 232px;
-  
+
+
+
 }
 
 /* O text escrito Eventos*/
@@ -95,7 +97,7 @@ nav>a {
 
 
 #destaque {
-margin-top: 100px;
+  margin-top: 100px;
 }
 
 /*Barra onde esta o campos*/
@@ -108,6 +110,7 @@ margin-top: 100px;
   width: 1380px;
   margin: 232px;
   margin-top: 0;
+
 }
 
 /* O text escrito Campo*/
@@ -162,10 +165,11 @@ margin-top: 100px;
   box-shadow: 0 0 30px;
   border-radius: 60px;
   height: auto;
-  padding: 30px;  
+  padding: 30px;
   width: 1380px;
   margin: 232px;
   margin-top: -150px;
+
 }
 
 /*espaçamento e tamanho da img*/
@@ -211,10 +215,11 @@ margin-top: 100px;
   border-radius: 60px;
   height: auto;
   padding: 30px;
-  transform: translateY(-350px);  
-  margin-top: 0;
+  transform: translateY(-350px);
+  /* margin-top: 0; */
   width: 1380px;
   margin: 232px;
+  margin-top: 350px;
 }
 
 /*espaçamento e tamanho da img*/
@@ -260,11 +265,11 @@ margin-top: 100px;
   border-radius: 60px;
   height: auto;
   padding: 30px;
-  transform: translateY(-570px); 
-  margin-top: 0;
+  transform: translateY(-570px);
+  /* margin-top: 0; */
   width: 1380px;
   margin: 232px;
-
+  margin-top: -30px;
 }
 
 /*espaçamento e tamanho da img*/
@@ -311,10 +316,12 @@ margin-top: 100px;
   border-radius: 60px;
   height: 1252px;
   padding: 30px;
-  transform: translateY(-790px); 
-  margin-top: 0;
+  transform: translateY(-790px);
+  /* margin-top: 0; */
   width: 1380px;
   margin: 232px;
+  margin-top: -30px;
+  /* margin-bottom: 1110px; */
 
 }
 
@@ -356,14 +363,14 @@ footer {
   background: #033800;
   height: 300px;
   padding: 40px;
-  display: block;  
+  display: block;
   margin-top: 0px;
   transform: translateY(-1400px);
   width: 1360px;
-  margin: 232px;  
+  margin: 232px;
   z-index: 4;
   position: absolute;
-  
+
 
 }
 
@@ -476,13 +483,13 @@ hr {
 
 
 .Flip-Card {
-background-color: transparent;
-width: 300px;
-height: 400px;
-perspective: 1000px;
-margin-top: 350px;
-display: inline-block;
-margin-right: 25px;
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+  margin-top: 350px;
+  display: inline-block;
+  margin-right: 25px;
 
 
 
@@ -492,59 +499,61 @@ margin-right: 25px;
 }
 
 .Flip-Card-inner {
-position: relative;
-width: 100%;
-height: 100%;
-text-align: center;
-transition: transform 0.8s;
-transform-style: preserve-3d;
-color: aqua;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  color: aqua;
 }
 
 .Flip-Card:hover .Flip-Card-inner {
   transform: rotateY(-180deg);
- 
+
 }
 
 
-.Flip-Card-Front, .Flip-Card-Back {
-position: absolute;
-width: 100%;
-height: 100%;
-backface-visibility: hidden; /*Vai Ocultar a parte de trás do Card*/
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-border-radius: 14px;
-background-color: #121212;
+.Flip-Card-Front,
+.Flip-Card-Back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /*Vai Ocultar a parte de trás do Card*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 14px;
+  background-color: #121212;
 
 }
 
 .Flip-Card-Back {
   transform: rotateY(180deg);
   color: aqua;
- 
- 
-
-}
-
-
-.Flip-Card-Card img{
-
-width: 100%;
-height: 100%;
 
 
 
 }
 
 
-.Box-Cards { 
-/* background-color: aquamarine; */
+.Flip-Card-Card img {
 
-display: flex;
-justify-content: center;
+  width: 100%;
+  height: 100%;
+
+
+
+}
+
+
+.Box-Cards {
+
+
+  display: flex;
+  justify-content: center;
 
 
 
