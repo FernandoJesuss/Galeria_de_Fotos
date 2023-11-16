@@ -377,16 +377,32 @@ nav>a:hover {
 footer {
   border-radius: 0px 0px 60px 60px;
   background: #033800;
-  height: 300px;
+  height: 300px;/*esse cara sobe o fim*/
   padding: 40px;
-  display: block;
-  margin-top: 0px;
-  transform: translateY(-1400px);
+  /* display: block; */
+  /* margin-top: 0px; */
+  /* transform: translateY(-1400px); */
   width: 1360px;
   margin: 232px;
   z-index: 4;
-  position: absolute;
+  /* position: absolute; */
   cursor: pointer;
+  display: flex;
+  margin-top: -630px
+
+}
+
+
+
+
+.Box-Final {
+margin-top: ;
+
+
+
+
+
+
 
 }
 
