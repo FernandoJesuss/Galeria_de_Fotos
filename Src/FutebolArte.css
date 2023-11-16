@@ -40,7 +40,7 @@ header {
 a {
   text-decoration: none;
   color: #fefeff;
-  
+
 }
 
 .headerTitle {
@@ -72,17 +72,16 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+
 }
 
 /*Altera a cor do texto do Nav*/
 nav>a:hover {
-  
-  font-family: Poppins;
-  color: #d81c6a;
-  
-}
 
+  font-family: Poppins;
+  color:aqua;
+
+}
 
 /*Barra onde esta o Eventos*/
 .destaque {
@@ -138,9 +137,10 @@ nav>a:hover {
   width: 1380px;
   margin: 232px;
   margin-top: 0;
-  margin-bottom: 100px; /*Faz subi e desce a barra*/
+  margin-bottom: 100px;
+  /*Faz subi e desce a barra*/
   cursor: pointer;
-  
+
 }
 
 /* O text escrito Resenha*/
@@ -337,13 +337,13 @@ nav>a:hover {
   height: 1252px;
   padding: 30px;
   /* transform: translateY(-790px); */
-  
+
   width: 1380px;
   margin: 232px;
   margin-top: -30px;
   margin-bottom: 1000px;
   cursor: pointer;
-  
+
 }
 
 /*espaçamento e tamanho da img*/
@@ -397,27 +397,12 @@ footer {
   cursor: pointer;
   display: block;
   margin-top: -1050px
-
 }
-
-
-
 
 .Box-Final {
-margin-top: 0;
-position: absolute;
-
-
-
-
-
-
-
+  margin-top: 0;
+  position: absolute;
 }
-
-
-
-
 
 html,
 body {
@@ -521,14 +506,6 @@ hr {
   display: block;
 }
 
-
-
-
-
-
-
-
-
 .Flip-Card {
   background-color: transparent;
   width: 300px;
@@ -537,11 +514,6 @@ hr {
   margin-top: 350px;
   display: inline-block;
   margin-right: 25px;
-
-
-
-
-
 
 }
 
@@ -580,18 +552,13 @@ hr {
 .Flip-Card-Back {
   transform: rotateY(180deg);
   color: aqua;
-
-
-
 }
-
 
 .Flip-Card-Card img {
   width: 100%;
   height: 100%;
 
 }
-
 
 .Box-Cards {
   display: flex;
