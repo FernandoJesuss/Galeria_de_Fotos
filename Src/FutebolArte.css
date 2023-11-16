@@ -114,10 +114,11 @@ nav>a:hover {
   padding: 30px;
   font-family: Poppins;
   border-radius: 60px;
-  transform: translateY(-80px);
+  /* transform: translateY(-80px); */
   width: 1380px;
   margin: 232px;
   margin-top: 0;
+  margin-bottom: -280px;
   cursor: pointer;
 }
 
@@ -133,11 +134,13 @@ nav>a:hover {
   padding: 30px;
   font-family: Poppins;
   border-radius: 60px;
-  transform: translateY(-680px);
+  /* transform: translateY(-680px); */
   width: 1380px;
   margin: 232px;
   margin-top: 0;
+  margin-bottom: 100px; /*Faz subi e desce a barra*/
   cursor: pointer;
+  
 }
 
 /* O text escrito Resenha*/
@@ -152,10 +155,11 @@ nav>a:hover {
   padding: 30px;
   font-family: Poppins;
   border-radius: 60px;
-  transform: translateY(-460px);
+  /* transform: translateY(-460px); */
   width: 1380px;
   margin: 232px;
   margin-top: 0;
+  margin-bottom: 100px;
   cursor: pointer;
 }
 
@@ -177,6 +181,7 @@ nav>a:hover {
   width: 1380px;
   margin: 232px;
   margin-top: -150px;
+  margin-bottom: 123px;
   cursor: pointer;
 }
 
@@ -224,11 +229,12 @@ nav>a:hover {
   border-radius: 60px;
   height: auto;
   padding: 30px;
-  transform: translateY(-350px);
+  /* transform: translateY(-350px); */
   /* margin-top: 0; */
   width: 1380px;
   margin: 232px;
   margin-top: 350px;
+  margin-bottom: 123px;
   cursor: pointer;
 }
 
@@ -276,11 +282,12 @@ nav>a:hover {
   border-radius: 60px;
   height: auto;
   padding: 30px;
-  transform: translateY(-570px);
+  /* transform: translateY(-570px); */
   /* margin-top: 0; */
   width: 1380px;
   margin: 232px;
   margin-top: -30px;
+  margin-bottom: 123px;
   cursor: pointer;
 }
 
@@ -329,13 +336,14 @@ nav>a:hover {
   border-radius: 60px;
   height: 1252px;
   padding: 30px;
-  transform: translateY(-790px);
-  /* margin-top: 0; */
+  /* transform: translateY(-790px); */
+  
   width: 1380px;
   margin: 232px;
   margin-top: -30px;
-  /* margin-bottom: 1110px; */
+  margin-bottom: 1000px;
   cursor: pointer;
+  
 }
 
 /*espaçamento e tamanho da img*/
@@ -377,7 +385,7 @@ nav>a:hover {
 footer {
   border-radius: 0px 0px 60px 60px;
   background: #033800;
-  height: 300px;/*esse cara sobe o fim*/
+  height: 300px;
   padding: 40px;
   /* display: block; */
   /* margin-top: 0px; */
@@ -387,8 +395,8 @@ footer {
   z-index: 4;
   /* position: absolute; */
   cursor: pointer;
-  display: flex;
-  margin-top: -630px
+  display: block;
+  margin-top: -1050px
 
 }
 
@@ -396,7 +404,8 @@ footer {
 
 
 .Box-Final {
-margin-top: ;
+margin-top: 0;
+position: absolute;
 
 
 
