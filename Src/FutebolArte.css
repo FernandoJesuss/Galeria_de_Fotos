@@ -217,9 +217,13 @@ nav>a:hover {
 .Ev p {
   font-size: 15px;
   margin-top: 10px;
-  text-align: center;
   cursor: pointer;
-  color: #fffefe;
+  color: gold;
+  text-align: justify;
+  text-align: center;
+  text-align: left;
+  text-align: right;
+
 }
 
 /*fundo verde galeria embaixo de campo*/
@@ -266,6 +270,7 @@ nav>a:hover {
   text-align: center;
   cursor: pointer;
   color: #fffefe;
+
 }
 
 /*Paragrafo abaixo do titulo*/
@@ -273,8 +278,12 @@ nav>a:hover {
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
+  text-align: left;
+  text-align: right;
+  text-align: justify;
   cursor: pointer;
   color: gold;
+
 }
 
 /*fundo verde time embaixo de time*/
@@ -321,14 +330,22 @@ nav>a:hover {
   align-items: center;
   text-align: center;
   cursor: pointer;
+  color: #fffefe;
 }
 
 /*Paragrafo abaixo do titulo*/
 .time p {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 10px;
-  text-align: center;
   cursor: pointer;
+  color: gold;
+  text-align: justify;
+  text-align: center;
+  /* text-align: left; */
+  /* text-align: right; */
+
+
+
 }
 
 /*fundo verde garotos embaixo de garotos*/
@@ -375,14 +392,18 @@ nav>a:hover {
   align-items: center;
   text-align: center;
   cursor: pointer;
+  color: #fefeff;
 }
 
 /*Paragrafo abaixo do titulo*/
 .Resenha p {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 10px;
-  text-align: center;
   cursor: pointer;
+  color: gold;
+  text-align: justify;
+  text-align: center;
+
 }
 
 /* Estilizando o footer pag fundo */
