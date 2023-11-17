@@ -67,7 +67,7 @@ nav {
   width: 1440px;
   height: 57px;
   border-radius: 15px;
-  background-color: #B7CFAB;
+  background-color: #4CAF50;
 
   display: flex;
   justify-content: space-around;
@@ -79,7 +79,7 @@ nav {
 nav>a:hover {
 
   font-family: Poppins;
-  color:aqua;
+  color: aqua;
 
 }
 
@@ -210,14 +210,16 @@ nav>a:hover {
   align-items: center;
   text-align: center;
   cursor: pointer;
+  color: #fffefe;
 }
 
 /*Paragrafo abaixo do titulo*/
 .Ev p {
-  font-size: 12px;
+  font-size: 15px;
   margin-top: 10px;
   text-align: center;
   cursor: pointer;
+  color: #fffefe;
 }
 
 /*fundo verde galeria embaixo de campo*/
@@ -263,14 +265,16 @@ nav>a:hover {
   align-items: center;
   text-align: center;
   cursor: pointer;
+  color: #fffefe;
 }
 
 /*Paragrafo abaixo do titulo*/
 .Cmp p {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 10px;
   text-align: center;
   cursor: pointer;
+  color: gold;
 }
 
 /*fundo verde time embaixo de time*/
@@ -546,7 +550,7 @@ hr {
   flex-direction: column;
   border-radius: 14px;
   background-color: #121212;
-  
+
 
 }
 
@@ -559,14 +563,14 @@ hr {
 .Flip-Card-Card img {
   width: 100%;
   height: 100%;
-  
+
 
 }
 
 .Box-Cards {
   display: flex;
   justify-content: center;
-  
+
 
 }
 
@@ -574,14 +578,29 @@ hr {
 
 .Flip-Card-ImgFront {
 
-padding: -925px;
-
-
-
-
+  padding: -925px;
 }
 
 
+
+.botão {
+  position: absolute;
+  bottom: -2380px;
+  left: 75%;
+  transform: translate(-40%);
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: -30px -12px;
+  cursor: pointer;
+  border-radius: 32px;
+
+}
 
 
 
