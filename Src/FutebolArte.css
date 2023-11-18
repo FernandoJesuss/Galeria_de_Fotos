@@ -343,7 +343,7 @@ nav>a:hover {
   text-align: center;
   /* text-align: left; */
   /* text-align: right; */
-  
+
 }
 
 /*fundo verde garotos embaixo de garotos*/
@@ -428,11 +428,17 @@ footer {
 }
 
 html,
-body {
-  height: 100%;
+body {  
   /* background-color: #E0E9DB; */
   background-image: url(Imagens/FundoEscuro.svg);
   cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+
+
 }
 
 .Empresas {
