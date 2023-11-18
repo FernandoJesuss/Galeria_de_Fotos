@@ -221,8 +221,6 @@ nav>a:hover {
   color: gold;
   text-align: justify;
   text-align: center;
-  text-align: left;
-  text-align: right;
 
 }
 
@@ -278,9 +276,6 @@ nav>a:hover {
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
-  text-align: left;
-  text-align: right;
-  text-align: justify;
   cursor: pointer;
   color: gold;
 
@@ -428,7 +423,7 @@ footer {
 }
 
 html,
-body {  
+body {
   /* background-color: #E0E9DB; */
   background-image: url(Imagens/FundoEscuro.svg);
   cursor: pointer;
@@ -485,6 +480,7 @@ body {
   display: block;
 
 }
+
 /*Texto do Paragrafo WebSites*/
 .SiteNav a {
   display: flex;
