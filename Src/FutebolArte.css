@@ -68,7 +68,6 @@ nav {
   height: 57px;
   border-radius: 15px;
   background-color: #4CAF50;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -113,7 +112,6 @@ nav>a:hover {
   padding: 30px;
   font-family: Poppins;
   border-radius: 60px;
-  /* transform: translateY(-80px); */
   width: 1380px;
   margin: 232px;
   margin-top: 0;
@@ -133,7 +131,6 @@ nav>a:hover {
   padding: 30px;
   font-family: Poppins;
   border-radius: 60px;
-  /* transform: translateY(-680px); */
   width: 1380px;
   margin: 232px;
   margin-top: 0;
@@ -155,7 +152,6 @@ nav>a:hover {
   padding: 30px;
   font-family: Poppins;
   border-radius: 60px;
-  /* transform: translateY(-460px); */
   width: 1380px;
   margin: 232px;
   margin-top: 0;
@@ -233,8 +229,6 @@ nav>a:hover {
   border-radius: 60px;
   height: auto;
   padding: 30px;
-  /* transform: translateY(-350px); */
-  /* margin-top: 0; */
   width: 1380px;
   margin: 232px;
   margin-top: 350px;
@@ -290,8 +284,6 @@ nav>a:hover {
   border-radius: 60px;
   height: auto;
   padding: 30px;
-  /* transform: translateY(-570px); */
-  /* margin-top: 0; */
   width: 1380px;
   margin: 232px;
   margin-top: -30px;
@@ -336,8 +328,6 @@ nav>a:hover {
   color: gold;
   text-align: justify;
   text-align: center;
-  /* text-align: left; */
-  /* text-align: right; */
 
 }
 
@@ -350,8 +340,6 @@ nav>a:hover {
   border-radius: 60px;
   height: 1252px;
   padding: 30px;
-  /* transform: translateY(-790px); */
-
   width: 1380px;
   margin: 232px;
   margin-top: -30px;
@@ -405,13 +393,9 @@ footer {
   background: #033800;
   height: 300px;
   padding: 40px;
-  /* display: block; */
-  /* margin-top: 0px; */
-  /* transform: translateY(-1400px); */
   width: 1360px;
   margin: 232px;
   z-index: 4;
-  /* position: absolute; */
   cursor: pointer;
   display: block;
   margin-top: -1050px
@@ -424,15 +408,12 @@ footer {
 
 html,
 body {
-  /* background-color: #E0E9DB; */
   background-image: url(Imagens/FundoEscuro.svg);
   cursor: pointer;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-
-
 
 }
 
@@ -669,7 +650,6 @@ hr {
 .botãoMooca {
   position: absolute;
   bottom: -2380px;
-  /* left: 75%; */
   transform: translate(-40%);
   background-color: #4CAF50;
   border: none;
@@ -687,7 +667,6 @@ hr {
 .botãoLajeado {
   position: absolute;
   bottom: -2380px;
-  /* left: 75%; */
   transform: translate(-40%);
   background-color: #4CAF50;
   border: none;
@@ -773,36 +752,3 @@ hr {
   cursor: pointer;
   border-radius: 32px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
