@@ -574,14 +574,50 @@ hr {
 .Flip-Card-Back {
   transform: rotateY(180deg);
   color: aqua;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
 
 }
 
-.Flip-Card-Card img {
-  width: 100%;
-  height: 100%;
+.Flip-Card-Back h1 {
+display: flex;
+position: relative;
+margin-top: 10px;
+font-size: 20PX;
+
+
 
 }
+
+/* .Flip-Card-Card img { */
+/* width: 100%; */
+/* height: 100%; */
+
+/* } */
+
+
+
+.Flip-Card-Card iframe {
+
+  width: 95%;
+  height: 98%;
+  margin: 90px;
+  display: flex;
+  position: relative;
+  top: -100px;
+  border: 2px solid #fff;
+  transform: translate(-85px);
+  box-shadow: 0 2px 14px aqua;
+  border-radius: 11px;
+
+
+  /* transform: translateY(-100px); */
+}
+
+
+
+
+
 
 .Box-Cards {
   display: flex;
