@@ -14,8 +14,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
   
 
 }
@@ -74,49 +74,29 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   opacity: 15;
-
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
   border-radius: 15px
-
-
-
-
-
 }
 
 /*Altera a cor do texto do Nav*/
-nav>a:hover {
+/* nav>a:hover { */
+/* font-family: Poppins; */
+/* color: rgb(166, 112, 216); */
 
-  font-family: Poppins;
-  color: rgb(166, 112, 216);
+/* } */
 
-}
-
-.box-botão-nav{
-width: 10%;
-height: 40px;
-background-color: #4CAF50;
-font-size: 25px;
-font-family: poppins;
-
-
-
+.box-botão-nav {
+  width: 10%;
+  height: 40px;
+  background-color: #4CAF50;
+  font-size: 25px;
+  font-family: poppins;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
   border-radius: 32px
-
-
 }
-
-
-
-
-
-
-
 
 /*Barra onde esta o Eventos*/
 .destaque {
@@ -127,8 +107,9 @@ font-family: poppins;
   width: 1380px;
   margin: 232px;
   cursor: pointer;
-
-
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 /* O text escrito Eventos*/
@@ -136,7 +117,6 @@ font-family: poppins;
   color: #fffefe;
   font-size: 30px;
 }
-
 
 #destaque {
   margin-top: 100px;
@@ -153,6 +133,9 @@ font-family: poppins;
   margin-top: 0;
   margin-bottom: -280px;
   cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 /* O text escrito Campo*/
@@ -171,9 +154,11 @@ font-family: poppins;
   margin: 232px;
   margin-top: 0;
   margin-bottom: 100px;
-  /*Faz subi e desce a barra*/
   cursor: pointer;
-
+  /*Faz subi e desce a barra*/
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 /* O text escrito Resenha*/
@@ -193,6 +178,9 @@ font-family: poppins;
   margin-top: 0;
   margin-bottom: 100px;
   cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 /* O text escrito time*/
@@ -215,6 +203,9 @@ font-family: poppins;
   margin-top: -150px;
   margin-bottom: 123px;
   cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 /*espaçamento e tamanho da img*/
@@ -233,6 +224,9 @@ font-family: poppins;
   margin: auto;
   border-radius: 15px;
   cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 /*texto em h3 titulo*/
@@ -270,6 +264,9 @@ font-family: poppins;
   margin-top: 350px;
   margin-bottom: 123px;
   cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 /*espaçamento e tamanho da img*/
@@ -288,6 +285,9 @@ font-family: poppins;
   margin: auto;
   border-radius: 15px;
   cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 /*texto em h3 titulo*/
@@ -325,6 +325,9 @@ font-family: poppins;
   margin-top: -30px;
   margin-bottom: 123px;
   cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 /*espaçamento e tamanho da img*/
@@ -344,6 +347,9 @@ font-family: poppins;
   margin: auto;
   border-radius: 15px;
   cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  border-radius: 15px
 }
 
 /*texto em h3 titulo*/
@@ -381,7 +387,9 @@ font-family: poppins;
   margin-top: -30px;
   margin-bottom: 1000px;
   cursor: pointer;
-
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  border-radius: 15px
 }
 
 /*espaçamento e tamanho da img*/
@@ -393,23 +401,29 @@ font-family: poppins;
 }
 
 /*alinha a igm ao centro*/
-.Resenha img {
+.Resenha iframe {
   width: 300px;
-  height: 200px;
+  height: 300px;
   display: block;
   margin: auto;
-  border-radius: 15px;
+  border-radius: 32px;
   cursor: pointer;
+
+
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  border-radius: 15px
 }
 
 /*texto em h3 titulo*/
 .Resenha h3 {
-  font-size: 24px;
-  margin-top: 50px;
+  font-size: 20px;
+  margin-top: 25px;
   align-items: center;
   text-align: center;
   cursor: pointer;
   color: #fefeff;
+  
 }
 
 /*Paragrafo abaixo do titulo*/
@@ -434,12 +448,17 @@ footer {
   z-index: 4;
   cursor: pointer;
   display: block;
-  margin-top: -1050px
+  margin-top: -1050px;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+
+
 }
 
 .Box-Final {
   margin-top: 0;
   position: absolute;
+
 }
 
 html,
@@ -453,46 +472,21 @@ body {
 
 }
 
-
-.video-destaque iframe{
-display: flex;
-/* justify-content: center; */
-/* align-items: center; */
-/* margin: 325px; */
-
-width: 1335px;
-height: 550px;
-
-
-
-
-border: 2px solid #fff;
-transform: translate(-85px);
-box-shadow: 0 2px 14px aqua;
-
-
-
-
-
-
-position: absolute;
+.video-destaque iframe {
+  display: flex;
+  width: 1335px;
+  height: 550px;
+  border: 2px solid #fff;
+  transform: translate(-85px);
+  box-shadow: 0 2px 14px aqua;
+  position: absolute;
   bottom: 1000px;
   transform: translate(145px);
-  /* background-color: #4CAF50; */
-  /* border: none; */
-  /* color: white; */
   padding: 15px 32px;
-  /* text-align: center; */
-  /* text-decoration: none; */
-  /* display: inline-block; */
-  /* font-size: 14px; */
   margin: -900px 110px;
   cursor: pointer;
   border-radius: 62px;
 
-
-
-    
 }
 
 .Empresas {
@@ -627,11 +621,7 @@ hr {
   flex-direction: column;
   border-radius: 14px;
   background-color: #121212;
-
-
-
   border: 2px solid #fff;
-  
   box-shadow: 0 2px 14px aqua;
 
 }
@@ -649,7 +639,7 @@ hr {
   position: relative;
   margin-top: 10px;
   font-size: 20PX;
-  
+
 }
 
 .Flip-Card-Card iframe {
@@ -674,7 +664,7 @@ hr {
 
 .Flip-Card-ImgFront {
   padding: -925px;
-  
+
 }
 
 .botão {
@@ -697,7 +687,6 @@ hr {
 }
 
 .botãoSantoAmaro {
-
   position: absolute;
   bottom: -2380px;
   transform: translate(-40%);
@@ -712,6 +701,8 @@ hr {
   margin: -1410px 115px;
   cursor: pointer;
   border-radius: 32px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;  
 
 }
 
@@ -730,6 +721,9 @@ hr {
   margin: -1410px 115px;
   cursor: pointer;
   border-radius: 32px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 
 }
 
@@ -748,6 +742,9 @@ hr {
   margin: -1410px 115px;
   cursor: pointer;
   border-radius: 32px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 .botãoLajeado {
@@ -765,6 +762,9 @@ hr {
   margin: -1410px 115px;
   cursor: pointer;
   border-radius: 32px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 
 }
 
@@ -784,6 +784,9 @@ hr {
   margin: -1860px -1024px;
   cursor: pointer;
   border-radius: 32px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 
 }
 
@@ -802,6 +805,9 @@ hr {
   margin: -1860px 115px;
   cursor: pointer;
   border-radius: 32px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 
 }
 
@@ -820,6 +826,9 @@ hr {
   margin: -1860px 115px;
   cursor: pointer;
   border-radius: 32px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+  
 }
 
 .botãoCoruja {
@@ -837,24 +846,17 @@ hr {
   margin: -1860px 130px;
   cursor: pointer;
   border-radius: 32px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 14px aqua;
+
 }
 
-
-
-
-.box-botão-sobre{
-
-width: 70px;
-height: 30px;
-background-color: #4CAF50;
-
-border-radius: 32px;
-
-
-
-border: 2px solid #fff;
+.box-botão-sobre {
+  width: 70px;
+  height: 30px;
+  background-color: #4CAF50;
+  border-radius: 32px;
+  border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
-
 
 }
