@@ -3,6 +3,7 @@
   margin: 0;
   font-family: Poppins;
   scroll-behavior: smooth;
+
 }
 
 /*altera headrer onde esta o logo*/
@@ -16,7 +17,6 @@
   align-items: center;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
 
 }
 
@@ -48,6 +48,7 @@ a {
 
 .headerTitle {
   color: #fefeff;
+
 }
 
 /*Imagem do logo*/
@@ -80,13 +81,6 @@ nav {
   border-radius: 15px
 }
 
-/*Altera a cor do texto do Nav*/
-/* nav>a:hover { */
-/* font-family: Poppins; */
-/* color: rgb(166, 112, 216); */
-
-/* } */
-
 .box-botão-nav {
   width: 10%;
   height: 40px;
@@ -95,27 +89,38 @@ nav {
   font-family: poppins;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  border-radius: 32px
+  border-radius: 32px;
+  cursor: pointer;
 }
 
-/*Barra onde esta o Eventos*/
+.box-botão-nav:hover {
+  background-color: yellowgreen;
+
+}
+
+.box-botão-nav:focus {
+  outline: none;
+
+}
+
+/*Barra onde esta o Notícias*/
 .destaque {
   background-color: #033800;
   padding: 30px;
-  font-family: Poppins;
   border-radius: 60px;
   width: 1380px;
   margin: 232px;
   cursor: pointer;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
 }
 
-/* O text escrito Eventos*/
+/* O text escrito Noticias*/
 .destaque h2 {
   color: #fffefe;
   font-size: 30px;
+  font-family: Poppins;
 }
 
 #destaque {
@@ -135,7 +140,7 @@ nav {
   cursor: pointer;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
 }
 
 /* O text escrito Campo*/
@@ -158,13 +163,14 @@ nav {
   /*Faz subi e desce a barra*/
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
 }
 
 /* O text escrito Resenha*/
 .Hta h2 {
   color: #fffefe;
   font-size: 30px;
+
 }
 
 /*Barra onde esta o Times*/
@@ -180,13 +186,14 @@ nav {
   cursor: pointer;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
 }
 
 /* O text escrito time*/
 .tm h2 {
   color: #fffefe;
   font-size: 30px;
+
 }
 
 /*fundo verde do site*/
@@ -205,7 +212,7 @@ nav {
   cursor: pointer;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
 }
 
 /*espaçamento e tamanho da img*/
@@ -214,6 +221,7 @@ nav {
   margin: 25px;
   height: 400px;
   cursor: pointer;
+
 }
 
 /*alinha a igm ao centro*/
@@ -226,13 +234,14 @@ nav {
   cursor: pointer;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
 }
 
 /*texto em h3 titulo*/
 .Ev h3 {
-  font-size: 24px;
-  margin-top: 50px;
+  font-size: 19px;
+  font-family: poppins;
+  margin-top: 20px;
   align-items: center;
   text-align: center;
   cursor: pointer;
@@ -241,8 +250,9 @@ nav {
 
 /*Paragrafo abaixo do titulo*/
 .Ev p {
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 10px;
+  font-family: poppins;
   cursor: pointer;
   color: gold;
   text-align: justify;
@@ -266,7 +276,7 @@ nav {
   cursor: pointer;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
 }
 
 /*espaçamento e tamanho da img*/
@@ -275,6 +285,7 @@ nav {
   margin: 25px;
   height: 400px;
   cursor: pointer;
+
 }
 
 /*alinha a igm ao centro*/
@@ -287,7 +298,7 @@ nav {
   cursor: pointer;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
 }
 
 /*texto em h3 titulo*/
@@ -327,7 +338,7 @@ nav {
   cursor: pointer;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
 }
 
 /*espaçamento e tamanho da img*/
@@ -408,8 +419,6 @@ nav {
   margin: auto;
   border-radius: 32px;
   cursor: pointer;
-
-
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
   border-radius: 15px
@@ -423,7 +432,7 @@ nav {
   text-align: center;
   cursor: pointer;
   color: #fefeff;
-  
+
 }
 
 /*Paragrafo abaixo do titulo*/
@@ -451,7 +460,6 @@ footer {
   margin-top: -1050px;
   border: 1px solid #fff;
   box-shadow: 0 2px 14px aqua;
-
 
 }
 
@@ -667,190 +675,6 @@ hr {
 
 }
 
-.botão {
-  position: absolute;
-  bottom: -2380px;
-  left: 75%;
-  transform: translate(-40%);
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: -30px -12px;
-  cursor: pointer;
-  border-radius: 32px;
-
-}
-
-.botãoSantoAmaro {
-  position: absolute;
-  bottom: -2380px;
-  transform: translate(-40%);
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: -1410px 115px;
-  cursor: pointer;
-  border-radius: 32px;
-  border: 2px solid #fff;
-  box-shadow: 0 2px 14px aqua;  
-
-}
-
-.botãoGuaianase {
-  position: absolute;
-  bottom: -2380px;
-  transform: translate(-40%);
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: -1410px 115px;
-  cursor: pointer;
-  border-radius: 32px;
-  border: 2px solid #fff;
-  box-shadow: 0 2px 14px aqua;
-  
-
-}
-
-.botãoMooca {
-  position: absolute;
-  bottom: -2380px;
-  transform: translate(-40%);
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: -1410px 115px;
-  cursor: pointer;
-  border-radius: 32px;
-  border: 2px solid #fff;
-  box-shadow: 0 2px 14px aqua;
-  
-}
-
-.botãoLajeado {
-  position: absolute;
-  bottom: -2380px;
-  transform: translate(-40%);
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: -1410px 115px;
-  cursor: pointer;
-  border-radius: 32px;
-  border: 2px solid #fff;
-  box-shadow: 0 2px 14px aqua;
-  
-
-}
-
-.botãoFalaGalera {
-  position: absolute;
-  bottom: -2380px;
-  left: 75%;
-  transform: translate(-40%);
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 39px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: -1860px -1024px;
-  cursor: pointer;
-  border-radius: 32px;
-  border: 2px solid #fff;
-  box-shadow: 0 2px 14px aqua;
-  
-
-}
-
-.botãoSantaIsabel {
-  position: absolute;
-  bottom: -2380px;
-  transform: translate(-40%);
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 39px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: -1860px 115px;
-  cursor: pointer;
-  border-radius: 32px;
-  border: 2px solid #fff;
-  box-shadow: 0 2px 14px aqua;
-  
-
-}
-
-.botãoManchester {
-  position: absolute;
-  bottom: -2380px;
-  transform: translate(-40%);
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 39px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: -1860px 115px;
-  cursor: pointer;
-  border-radius: 32px;
-  border: 2px solid #fff;
-  box-shadow: 0 2px 14px aqua;
-  
-}
-
-.botãoCoruja {
-  position: absolute;
-  bottom: -2380px;
-  transform: translate(-40%);
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: -1860px 130px;
-  cursor: pointer;
-  border-radius: 32px;
-  border: 2px solid #fff;
-  box-shadow: 0 2px 14px aqua;
-
-}
-
 .box-botão-sobre {
   width: 70px;
   height: 30px;
@@ -858,5 +682,15 @@ hr {
   border-radius: 32px;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
+
+}
+
+.box-botão-sobre:hover {
+  background-color: yellowgreen;
+
+}
+
+.box-botão-sobre:focus {
+  outline: none;
 
 }
