@@ -1,2 +1,6 @@
-# Projeto Galeria de Fotos
-Galeria Futebol Arte
+# Projeto Galeria de Fotos e Videos
+
+## Nome: Craques da Várea
+
+![Logo do Site](image.png)
+
