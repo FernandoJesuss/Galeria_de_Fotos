@@ -78,7 +78,7 @@ nav {
   opacity: 15;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  border-radius: 15px
+  
 }
 
 .box-botão-nav {
@@ -193,7 +193,7 @@ nav {
 .tm h2 {
   color: #fffefe;
   font-size: 30px;
-
+ 
 }
 
 /*fundo verde do site*/
@@ -400,7 +400,7 @@ nav {
   cursor: pointer;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  border-radius: 15px
+  
 }
 
 /*espaçamento e tamanho da img*/
@@ -506,7 +506,7 @@ body {
 .Empresa img {
   width: 100px;
   height: 100px;
-  transform: translate(450px);
+  transform: translate(510px);
   margin-bottom: -214px;
   display: block;
   position: relative;
@@ -545,7 +545,7 @@ body {
 /*Texto do Paragrafo WebSites*/
 .SiteNav a {
   display: flex;
-  margin-left: 922px;
+  margin-left: 930px;
   color: #fefeff;
   font-family: Poppins;
   margin-bottom: 11px;
@@ -560,7 +560,7 @@ body {
   font-size: 18px;
   width: 140px;
   height: 100px;
-  transform: translate(1300px);
+  transform: translate(1320px);
   margin-top: -190px;
   margin-bottom: 16px;
   display: block;
@@ -694,3 +694,17 @@ hr {
   outline: none;
 
 }
+
+
+
+
+
+@font-face {
+  font-family: 'Granesta';
+  src: url('Fonts/Granesta.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
