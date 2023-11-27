@@ -506,7 +506,7 @@ body {
 .Empresa img {
   width: 100px;
   height: 100px;
-  transform: translate(450px);
+  transform: translate(510px);
   margin-bottom: -214px;
   display: block;
   position: relative;
@@ -545,7 +545,7 @@ body {
 /*Texto do Paragrafo WebSites*/
 .SiteNav a {
   display: flex;
-  margin-left: 922px;
+  margin-left: 930px;
   color: #fefeff;
   font-family: Poppins;
   margin-bottom: 11px;
@@ -560,7 +560,7 @@ body {
   font-size: 18px;
   width: 140px;
   height: 100px;
-  transform: translate(1300px);
+  transform: translate(1320px);
   margin-top: -190px;
   margin-bottom: 16px;
   display: block;
