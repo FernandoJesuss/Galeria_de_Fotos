@@ -671,7 +671,17 @@ hr {
 }
 
 .Flip-Card-ImgFront {
-  padding: -925px;
+  padding: -900px;  
+
+}
+
+/*Img na frente dos cards*/
+.Flip-Card-Front img{
+width: 300px;
+height: 395px;
+border-radius: 15px;
+margin-bottom: -80px;
+margin-top: -50px;
 
 }
 
