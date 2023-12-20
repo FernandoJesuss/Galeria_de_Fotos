@@ -6,6 +6,20 @@
 
 }
 
+@media screen and (max-width: 768px) {
+  .BoxHeader {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    max-width: 80%;
+    margin-top: -15%;
+    align-items: center;
+
+  }
+}
+
 /*altera headrer onde esta o logo*/
 .BoxHeader {
   background-color: #033800;
@@ -14,6 +28,7 @@
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
+  overflow: hidden;
   align-items: center;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
@@ -31,6 +46,19 @@ header {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+    flex-direction: column;
+  }
+}
+
 .headerNav {
   display: flex;
   align-items: center;
@@ -40,15 +68,41 @@ header {
 
 }
 
+@media screen and (max-width: 768px) {
+  .headerNav {
+    flex-direction: column;
+    align-items: flex-start;
+    transform: none;
+    gap: 12px;
+    padding: 10px;
+  }
+}
+
+/*texto dentro dos botões de navegação*/
 a {
   text-decoration: none;
   color: #fefeff;
 
 }
 
+@media screen and (max-width: 768px) {
+  a {
+    color: #fefffe;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
 .headerTitle {
   color: #fefeff;
 
+}
+
+@media screen and (max-width: 768px) {
+  .headerTitle {
+    color: #fefeff;
+    font-size: 18px;
+  }
 }
 
 /*Imagem do logo*/
@@ -59,10 +113,26 @@ a {
 
 }
 
+@media screen and (max-width: 768px) {
+  .headerImage {
+    width: 50px;
+    height: 50px;
+    transform: none;
+  }
+}
+
 .headerContent {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .headerContent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
 
 /*altera a barra de navegação*/
@@ -78,11 +148,30 @@ nav {
   opacity: 15;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
 }
 
+@media screen and (max-width: 768px) {
+  nav {
+    font-size: 20px;
+    width: 126%;
+    height: auto;
+    border-radius: 10px;
+    opacity: 1;
+    box-shadow: none;
+    justify-content: center;
+    padding: 5%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+    transform: translate(-50px);
+
+
+  }
+}
+
+
 .box-botão-nav {
-  width: 10%;
+  width: 130px;
   height: 40px;
   background-color: #4CAF50;
   font-size: 25px;
@@ -91,6 +180,37 @@ nav {
   box-shadow: 0 2px 14px aqua;
   border-radius: 32px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .box-botão-nav {
+    width: 100%;
+    gap: 12%;
+    font-size: 20px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: none;
+    cursor: default;
+    margin: 1%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .box-botão-nav {
+    font-size: 15px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .box-botão-nav {
+    font-size: 12px;
+    height: 15px;
+    border-radius: 8px;
+    box-shadow: none;
+  }
 }
 
 .box-botão-nav:hover {
@@ -116,6 +236,29 @@ nav {
 
 }
 
+@media screen and (max-width: 768px) {
+  .destaque {
+    width: 85%;
+    margin: 20px;
+    transform: translate(5%);
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: none;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .destaque {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+  }
+}
+
 /* O text escrito Noticias*/
 .destaque h2 {
   color: #fffefe;
@@ -123,8 +266,34 @@ nav {
   font-family: Poppins;
 }
 
+@media screen and (max-width: 768px) {
+  .destaque h2 {
+    font-size: 24px;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .destaque h2 {
+    font-size: 20px;
+
+  }
+}
+
 #destaque {
   margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  #destaque {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #destaque {
+    margin-top: 20px;
+  }
 }
 
 /*Barra onde esta o campos*/
@@ -143,10 +312,44 @@ nav {
 
 }
 
+@media screen and (max-width: 768px) {
+  .campos {
+    width: 85%;
+    margin: 20px;
+    transform: translate(5%);
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .campos {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+  }
+}
+
 /* O text escrito Campo*/
 .campos h2 {
   color: #fff;
   font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .campos h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .campos h2 {
+    font-size: 20px;
+  }
 }
 
 /*Barra onde esta o Resenha*/
@@ -160,10 +363,33 @@ nav {
   margin-top: 0;
   margin-bottom: 100px;
   cursor: pointer;
-  /*Faz subi e desce a barra*/
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
 
+}
+
+@media screen and (max-width: 768px) {
+  .Hta {
+    width: 85%;
+    margin: 20px;
+    transform: translate(5%);
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: none;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Hta {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+
+  }
 }
 
 /* O text escrito Resenha*/
@@ -171,6 +397,13 @@ nav {
   color: #fffefe;
   font-size: 30px;
 
+}
+
+@media (max-width: 768px) {
+  .Hta h2 {
+    font-size: 20px;
+
+  }
 }
 
 /*Barra onde esta o Times*/
@@ -189,11 +422,54 @@ nav {
 
 }
 
+@media (max-width: 768px) {
+  .tm {
+    width: 85%;
+    margin: 20px;
+    transform: translate(5%);
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tm {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+
+  }
+}
+
 /* O text escrito time*/
 .tm h2 {
   color: #fffefe;
   font-size: 30px;
- 
+
+}
+
+.tm h2 {
+  color: #fffefe;
+  font-size: 2.5em;
+  /* Usando "em" para tamanho de fonte relativo */
+}
+
+@media (max-width: 768px) {
+  .tm h2 {
+    font-size: 20px;
+    /* Tamanho de fonte ajustado para telas menores */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tm {
+    font-size: 20%;
+
+  }
 }
 
 /*fundo verde do site*/
@@ -215,6 +491,46 @@ nav {
 
 }
 
+
+@media (max-width: 768px) {
+  .Evs {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(107, 142, 40);
+    box-shadow: 0 0 30px;
+    border-radius: 1%;
+    height: auto;
+    padding: 1%;
+    width: 87%;
+    margin: 5% auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+    transform: translate(2%);
+
+
+  }
+}
+
+@media (max-width: 480px) {
+  .Evs {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(107, 142, 40);
+    box-shadow: 0 0 30px;
+    border-radius: 1%;
+    height: auto;
+    padding: 1%;
+    width: 87%;
+    margin: 5% auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+    transform: translate(2%);
+
+  }
+}
+
 /*espaçamento e tamanho da img*/
 .Ev {
   width: 285px;
@@ -222,6 +538,18 @@ nav {
   height: 400px;
   cursor: pointer;
 
+}
+
+@media (max-width: 768px) {
+  .Ev {
+    /* width: 30%; */
+    margin: 2.5%;
+    height: 400px;
+    cursor: pointer;
+    width: 100%;
+    margin: 5% 0;
+
+  }
 }
 
 /*alinha a igm ao centro*/
@@ -237,6 +565,20 @@ nav {
 
 }
 
+@media (max-width: 768px) {
+  .Ev img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+
+  }
+}
+
 /*texto em h3 titulo*/
 .Ev h3 {
   font-size: 19px;
@@ -246,6 +588,19 @@ nav {
   text-align: center;
   cursor: pointer;
   color: #fffefe;
+}
+
+@media (max-width: 768px) {
+  .Ev h3 {
+    font-size: 2em;
+    font-family: poppins;
+    margin-top: 2%;
+    text-align: center;
+    cursor: pointer;
+    color: #fffefe;
+    font-size: 16px;
+
+  }
 }
 
 /*Paragrafo abaixo do titulo*/
@@ -258,6 +613,18 @@ nav {
   text-align: justify;
   text-align: center;
 
+}
+
+@media (max-width: 768px) {
+  .Ev p {
+    font-size: 1.4em;
+    margin-top: 1em;
+    font-family: poppins;
+    cursor: pointer;
+    color: gold;
+    text-align: justify;
+    font-size: 12px;
+  }
 }
 
 /*fundo verde galeria embaixo de campo*/
@@ -279,6 +646,45 @@ nav {
 
 }
 
+@media (max-width: 768px) {
+  .Cmps {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(107, 142, 40);
+    box-shadow: 0 0 30px;
+    border-radius: 1%;
+    height: auto;
+    padding: 1%;
+    width: 87%;
+    margin: 5% auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+    transform: translate(2%);
+
+  }
+}
+
+
+@media (max-width: 480px) {
+  .Cmps {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(107, 142, 40);
+    box-shadow: 0 0 30px;
+    border-radius: 1%;
+    height: auto;
+    padding: 1%;
+    width: 87%;
+    margin: 5% auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+    transform: translate(2%);
+
+  }
+}
+
 /*espaçamento e tamanho da img*/
 .Cmp {
   width: 285px;
@@ -286,6 +692,16 @@ nav {
   height: 400px;
   cursor: pointer;
 
+}
+
+@media (max-width: 768px) {
+  .Cmp {
+    margin: 2.5%;
+    height: 400px;
+    cursor: pointer;
+    width: 100%;
+    margin: 9% 0;
+  }
 }
 
 /*alinha a igm ao centro*/
@@ -301,6 +717,20 @@ nav {
 
 }
 
+@media (max-width: 768px) {
+  .Cmp img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+
+  }
+}
+
 /*texto em h3 titulo*/
 .Cmp h3 {
   font-size: 24px;
@@ -312,6 +742,18 @@ nav {
 
 }
 
+@media (max-width: 768px) {
+  .Cmp h3 {
+    font-size: 2.4em;
+    margin-top: 5%;
+    text-align: center;
+    cursor: pointer;
+    color: #fffefe;
+    font-size: 18px;
+
+  }
+}
+
 /*Paragrafo abaixo do titulo*/
 .Cmp p {
   font-size: 14px;
@@ -320,6 +762,18 @@ nav {
   cursor: pointer;
   color: gold;
 
+}
+
+@media (max-width: 768px) {
+  .Cmp p {
+    font-size: 1.4em;
+    margin-top: 1em;
+    text-align: center;
+    cursor: pointer;
+    color: gold;
+    font-size: 12px;
+
+  }
 }
 
 /*fundo verde time embaixo de time*/
@@ -341,6 +795,48 @@ nav {
 
 }
 
+
+
+
+@media (max-width: 768px) {
+  .times {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(107, 142, 40);
+    box-shadow: 0 0 30px;
+    border-radius: 1%;
+    height: auto;
+    padding: 1%;
+    width: 87%;
+    margin: 5% auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+    transform: translate(2%);
+
+  }
+}
+
+
+@media (max-width: 480px) {
+  .times {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(107, 142, 40);
+    box-shadow: 0 0 30px;
+    border-radius: 1%;
+    height: auto;
+    padding: 1%;
+    width: 87%;
+    margin: 5% auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+    transform: translate(2%);
+
+  }
+}
+
 /*espaçamento e tamanho da img*/
 .time {
   width: 285px;
@@ -348,6 +844,16 @@ nav {
   height: 400px;
   cursor: pointer;
 
+}
+
+@media (max-width: 768px) {
+  .time {
+    margin: 2.5%;
+    height: 400px;
+    cursor: pointer;
+    width: 100%;
+    margin: 5% 0;
+  }
 }
 
 /*alinha a igm ao centro*/
@@ -363,6 +869,20 @@ nav {
   border-radius: 15px
 }
 
+@media (max-width: 768px) {
+  .time img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+
+  }
+}
+
 /*texto em h3 titulo*/
 .time h3 {
   font-size: 24px;
@@ -373,15 +893,40 @@ nav {
   color: #fffefe;
 }
 
+@media (max-width: 768px) {
+  .time h3 {
+    font-size: 2.4em;
+    margin-top: 0.8em;
+    text-align: center;
+    cursor: pointer;
+    color: #fffefe;
+    font-size: 18px;
+
+  }
+}
+
 /*Paragrafo abaixo do titulo*/
 .time p {
   font-size: 14px;
-  margin-top: 1cqh;
+  margin-top: 1px;
   cursor: pointer;
   color: gold;
   text-align: justify;
   text-align: center;
 
+}
+
+@media (max-width: 768px) {
+  .time p {
+    font-size: 1.4em;
+    margin-top: 1em;
+    cursor: pointer;
+    color: gold;
+    text-align: justify;
+    font-size: 12px;
+    text-align: center;
+
+  }
 }
 
 /*fundo verde garotos embaixo de garotos*/
@@ -400,7 +945,45 @@ nav {
   cursor: pointer;
   border: 2px solid #fff;
   box-shadow: 0 2px 14px aqua;
-  
+
+}
+
+@media (max-width: 768px) {
+  .Resenhas {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(107, 142, 40);
+    box-shadow: 0 0 30px;
+    border-radius: 1%;
+    height: auto;
+    padding: 1%;
+    width: 87%;
+    margin: 5% auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+    transform: translate(2%);
+
+  }
+}
+
+@media (max-width: 480px) {
+  .times {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(107, 142, 40);
+    box-shadow: 0 0 30px;
+    border-radius: 1%;
+    height: auto;
+    padding: 1%;
+    width: 87%;
+    margin: 5% auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+    transform: translate(2%);
+
+  }
 }
 
 /*espaçamento e tamanho da img*/
@@ -409,6 +992,17 @@ nav {
   margin: 25px;
   height: 400px;
   cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .Resenha {
+    margin: 2.5%;
+    height: 400px;
+    cursor: pointer;
+    width: 100%;
+    margin: 5% 0;
+  }
 }
 
 /*alinha a igm ao centro*/
@@ -424,6 +1018,23 @@ nav {
   border-radius: 15px
 }
 
+
+
+@media (max-width: 768px) {
+  .Resenha iframe {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+
+
+  }
+}
+
 /*texto em h3 titulo*/
 .Resenha h3 {
   font-size: 20px;
@@ -433,6 +1044,18 @@ nav {
   cursor: pointer;
   color: #fefeff;
 
+}
+
+@media (max-width: 768px) {
+  .Resenha h3 {
+    font-size: 1.8em;
+    margin-top: 2.5%;
+    text-align: center;
+    cursor: pointer;
+    color: #fefeff;
+    font-size: 16px;
+
+  }
 }
 
 /*Paragrafo abaixo do titulo*/
@@ -445,6 +1068,24 @@ nav {
   text-align: center;
 
 }
+
+@media (max-width: 768px) {
+  .Resenha p {
+    font-size: 1.4em;
+    margin-top: 1em;
+    cursor: pointer;
+    color: gold;
+    text-align: center;
+    font-size: 12px;
+    text-align: center;
+
+  }
+}
+
+
+
+
+
 
 /* Estilizando o footer pag fundo */
 footer {
@@ -463,22 +1104,100 @@ footer {
 
 }
 
+
+
+@media (max-width: 768px) {
+footer {
+  border-radius: 0 0 6% 6%;
+  /* Usando border-radius relativo */
+  background: #033800;
+  height: auto;
+  /* Ajustado para altura automática */
+  padding: 23%;
+  /* Usando padding relativo */
+  width: 43%;
+  /* Usando largura relativa */
+  margin: -35% auto;
+  /* Margens relativas para centralizar e ajustar em diferentes tamanhos de tela */
+  z-index: 4;
+  cursor: pointer;
+  display: block;
+  transform: translate(2%);
+    
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    border-radius: 0 0 6% 6%;
+    /* Usando border-radius relativo */
+    background: #033800;
+    height: auto;
+    /* Ajustado para altura automática */
+    padding: 23%;
+    /* Usando padding relativo */
+    width: 43%;
+    /* Usando largura relativa */
+    margin: -35% auto;
+    /* Margens relativas para centralizar e ajustar em diferentes tamanhos de tela */
+    z-index: 4;
+    cursor: pointer;
+    display: block;
+    transform: translate(2%);
+      
+    }
+  }
+
+
+
+
+
+
 .Box-Final {
   margin-top: 0;
   position: absolute;
+  /* background-color: blue; */
 
 }
 
-html,
-body {
-  background-image: url(Imagens/FundoEscuro.svg);
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-
+@media (max-width: 768px) {
+.Box-Final {
+  margin-top: -30%;
+  position: relative;
+  font-size: 60%;
+  max-height: 110%;
+  text-align: center;
+  color: #033800;
+  
+  
+  
+  }
 }
+
+
+
+
+
+@media (max-width: 768px) {
+
+  html,
+  body {
+    /* background-image: url(Imagens/FundoEscuro.svg); */
+    cursor: pointer;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: auto;
+
+
+
+    /* Estilos específicos para telas menores */
+  }
+}
+
+
+
+
 
 .video-destaque iframe {
   display: flex;
@@ -488,8 +1207,8 @@ body {
   transform: translate(-85px);
   box-shadow: 0 2px 14px aqua;
   position: absolute;
-  bottom: 1000px;
-  transform: translate(145px);
+  bottom: 950px;
+  transform: translate(140px);
   padding: 15px 32px;
   margin: -900px 110px;
   cursor: pointer;
@@ -497,10 +1216,51 @@ body {
 
 }
 
+
+
+
+@media (max-width: 768px) {
+  .video-destaque iframe {
+    width: 79%;
+    /* Usando largura relativa */
+    height: auto;
+    /* Ajustado para altura automática */
+    border: 2px solid #fff;
+    box-shadow: 0 2px 14px aqua;
+    position: relative;
+    /* Ajustando a posição conforme necessário para responsividade */
+    padding: 1% 1%;
+    /* Usando padding relativo */
+    margin: -710px;
+    /* Removendo margem fixa */
+    cursor: pointer;
+    border-radius: 10%;
+    /* Usando border-radius relativo */
+
+    transform: translate(205%);
+    margin-top: 1180px;
+
+
+
+  }
+}
+
+
+
+
 .Empresas {
   transform: translate(-270px);
 
 }
+
+@media (max-width: 768px) {
+.Empresas {
+  transform: translate(-20%);
+  /* Ajustando a transformação para responsividade */
+}
+}
+
+
 
 /*Img Logo footer*/
 .Empresa img {
@@ -512,6 +1272,31 @@ body {
   position: relative;
   bottom: -50px;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+.Empresa img {
+  width: 80%;
+  /* Usando largura relativa */
+  height: auto;
+  /* Ajustado para altura automática */
+  transform: translate(30%);
+  /* Ajustando a transformação para responsividade */
+  margin-bottom: -15%;
+  /* Ajustando margem relativa */
+  display: block;
+  position: relative;
+  bottom: -5%;
+  /* Ajustando posição relativa */
+}
+}
+
+
+
+
 
 /*Paragrafo*/
 .Empresa p {
@@ -528,6 +1313,38 @@ body {
 
 }
 
+
+
+
+@media (max-width: 768px) {
+.Empresa p {
+  width: 80%;
+  /* Usando largura relativa */
+  color: #fefeff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.3em;
+  /* Usando "em" para tamanho de fonte relativo */
+  margin-top: 22%;
+  /* Margem relativa */
+  transform: translate(35%);
+  /* Ajustando a transformação para responsividade */
+  display: block;
+  position: relative;
+  bottom: -5%;
+  /* Ajustando posição relativa */
+/* color: brown; */
+ 
+    
+  }
+}
+
+
+
+
+
+
+
 /*Texto em h4 no footer WebSites*/
 .SiteNav h4 {
   display: flex;
@@ -542,6 +1359,21 @@ body {
 
 }
 
+
+
+
+
+@media screen and (max-width: 600px) {
+  .SiteNav h4 {
+    margin-left: 80px;
+    margin-top: 10px;
+    /* color: chartreuse; */
+
+  }
+}
+
+
+
 /*Texto do Paragrafo WebSites*/
 .SiteNav a {
   display: flex;
@@ -551,6 +1383,16 @@ body {
   margin-bottom: 11px;
   font-size: 12px;
   display: block;
+}
+
+
+@media screen and (max-width: 600px) {
+  .SiteNav a {
+    margin-left: 30%;
+    margin-bottom: 8%;
+    font-size: 12px;
+    
+  }
 }
 
 /*Altera texto Redes Sociais Icones*/
@@ -566,6 +1408,21 @@ body {
   display: block;
 }
 
+
+
+
+@media screen and (max-width: 768px) {
+  .MidiaSociais h4 {
+    transform: none;    
+    width: auto;
+    height: auto;
+    /* color: chocolate; */
+    margin-left: 80px;
+    margin-top: 10px;
+    
+  }
+}
+
 /*Icone rede Sociais*/
 .MidiaSociais li {
   width: 100px;
@@ -575,6 +1432,27 @@ body {
   gap: 11px;
   display: flex;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .MidiaSociais li {
+    transform: none;
+    /* margin: 0; */
+    width: auto;
+    height: auto;
+    margin-left: 27%;
+    margin-top: 10%;
+    display: flex;
+    
+  }
+}
+
+
+
+
+
+
 
 /*Todos os Direitos*/
 .Copy,
@@ -590,16 +1468,54 @@ hr {
   display: block;
 }
 
+
+@media screen and (max-width: 768px) {
+
+  .Copy,
+  hr {
+    width: 100%;
+    margin: 20px;
+    transform: none;
+    margin-left: 20%;
+    margin-top: 10%;
+    display: block;
+  }
+}
+
 .Flip-Card {
   background-color: transparent;
   width: 300px;
   height: 400px;
   perspective: 1000px;
-  margin-top: 950px;
+  margin-top: 1200px;
   display: inline-block;
   margin-right: 25px;
+  
 
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+  .Flip-Card {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin: -20% 0;
+    display: flex;
+    position: relative;
+    grid: 12%;
+
+  }
+}
+
+
+
+
+
+
+/*Letras em destaque nos cards*/
 
 .Flip-Card-inner {
   position: relative;
@@ -611,10 +1527,30 @@ hr {
   color: aqua;
 }
 
+@media screen and (max-width: 768px) {
+  .Flip-Card-inner {
+    width: 100%;
+    height: 100%;
+    font-size: 70%;
+    
+
+  }
+}
+
 .Flip-Card:hover .Flip-Card-inner {
   transform: rotateY(-180deg);
 
 }
+
+@media screen and (max-width: 768px) {
+  .Flip-Card:hover .Flip-Card-inner {
+    transform: rotateY(-180deg);
+  }
+}
+
+
+
+
 
 .Flip-Card-Front,
 .Flip-Card-Back {
@@ -634,6 +1570,25 @@ hr {
 
 }
 
+
+
+.Flip-Card-Front,
+.Flip-Card-Back {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px aqua;
+  margin-top: -80%;
+
+
+
+}
+
+
+
+
+
+
 .Flip-Card-Back {
   transform: rotateY(180deg);
   color: aqua;
@@ -642,48 +1597,121 @@ hr {
 
 }
 
+
+
+
+.Flip-Card-Back {
+  transform: rotateY(180deg);
+  box-shadow: 0 2px 10px aqua;
+}
+
+
+/*texto pate de tras do cards*/
+
 .Flip-Card-Back h1 {
   display: flex;
   position: relative;
-  margin-top: 10px;
+  margin-top: -160px;
   font-size: 20PX;
-
+ 
+  /* font-size: 10px; */
+/* color: chartreuse; */
+}
+@media screen and (max-width: 768px) {
+.Flip-Card-Back h1 {
+  font-size: 3vw;
+  margin-top: -0%;
+}
 }
 
 .Flip-Card-Card iframe {
-  width: 95%;
-  height: 98%;
+  width: 300px;
+  height: 300px;
   margin: 90px;
   display: flex;
   position: relative;
-  top: -100px;
+  top: -117px;
   border: 2px solid #fff;
-  transform: translate(-85px);
+  transform: translate(1px);
   box-shadow: 0 2px 14px aqua;
   border-radius: 11px;
 
 }
 
+
+@media screen and (max-width: 768px) {
+  .Flip-Card-Back iframe {
+    width: 100%;
+    height: 100%;
+    margin: -20%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 10px aqua;
+    border-radius: 8px;
+    transform: translate(17%);
+    top: 14%;
+
+
+  }
+}
+
+
+/*distancia entre os cards*/
 .Box-Cards {
   display: flex;
   justify-content: center;
+  gap: 22px;
+  padding: 40px;
 
 }
 
 .Flip-Card-ImgFront {
-  padding: -900px;  
+  padding: -900px;
 
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+.Flip-Card-ImgFront {
+  max-width: 100%;
+  height: auto;
+
+
+}
+}
+
+
+
+
+
 
 /*Img na frente dos cards*/
-.Flip-Card-Front img{
-width: 300px;
-height: 395px;
-border-radius: 15px;
-margin-bottom: -80px;
-margin-top: -50px;
+.Flip-Card-Front img {
+  width: 300px;
+  height: 395px;
+  border-radius: 15px;
+  margin-bottom: -80px;
+  margin-top: -50px;
 
 }
+
+
+
+@media screen and (max-width: 768px) {
+.Flip-Card-Front img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+}
+
+
+
+
+
 
 .box-botão-sobre {
   width: 70px;
@@ -695,10 +1723,38 @@ margin-top: -50px;
 
 }
 
+
+@media screen and (max-width: 768px) {
+  .box-botão-sobre {
+    width: 150vh;
+    height: 3vh;
+    max-width: 70px;
+    max-height: 30px;
+    background-color: #4CAF50;
+    border-radius: 5vw;
+    border: -1vw solid #fff;
+    box-shadow: 0 1vw 7vw aqua;
+  }
+}
+
+
+
+
 .box-botão-sobre:hover {
   background-color: yellowgreen;
 
 }
+
+/*parei aqui*/
+
+/* @media screen and (max-width: 768px) { */
+/* .box-botão-sobre:hover { */
+/* background-color: yellowgreen; */
+/* transition: background-color 0.3s ease; */
+/* } */
+/* } */
+
+
 
 .box-botão-sobre:focus {
   outline: none;
@@ -715,6 +1771,3 @@ margin-top: -50px;
   font-weight: normal;
   font-style: normal;
 }
-
-
-
