@@ -1617,12 +1617,12 @@ hr {
   /* font-size: 10px; */
 /* color: chartreuse; */
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px ) {
 .Flip-Card-Back h1 {
   font-size: 2.4vw;
   margin-top: 12%;
-  
-
+  padding: 0 20px;
+  width: 100%;
 
 }
 }
