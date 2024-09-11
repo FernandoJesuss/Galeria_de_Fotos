@@ -5,495 +5,496 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>"FavelaArteFutebol"</title>
-  <link rel="stylesheet" href=".//Src/FutebolArte.css">
+  <link rel="stylesheet" href=".//Src/styles.css">
+  <!-- link google fonts icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Link Swiper js css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
 </head>
 
 <body>
   <header>
-    <div>okok</div>
 
-    <div class="BoxHeader">
-      <div class="headerContent">
-        <a href="#Home"><img class="headerImage" src="./Src/Icones/Logo1.png" alt="Logo"></a>
-        <h1 class="headerTitle"></h1>
-      </div>
+    <img class="logo" src="./Src/Icones/varoficial.png" alt="Logo">
 
-      <div class="headerNav">
-        <button class="box-botão-sobre">
-          <a href="#Contato">Sobre</a>
-        </button>
-        <button class="box-botão-sobre">
-          <a href="#Contato">Contato</a>
-        </button>
-      </div>
-    </div>
+    <button class="hamburger" id="hamburger">
 
-    <section id="Navegação">
-      <nav>
-        <button class="box-botão-nav">
-          <a href="#Home">Home</a>
-        </button>
-        <button class="box-botão-nav">
-          <a href="#destaque">Notícias</a>
-        </button>
-        <button class="box-botão-nav">
-          <a href="#Campos">Campos</a>
-        </button>
-        <button class="box-botão-nav">
-          <a href="#tm">Times</a>
-        </button>
-        <button class="box-botão-nav">
-          <a href="#Hta">Resenhas</a>
-        </button>
-      </nav>
-    </section>
+      <img src="./Src/Icones/QuillHamburgerSidebar.png" alt="">
+
+    </button>
+    <nav class="nav-menu" id="nav-menu">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#noticias">Notícias</a></li>
+        <li><a href="#campos">Campos</a></li>
+        <li><a href="#times">Times</a></li>
+        <li><a href="#resenhas">Resenha</a></li>
+        <li><a class="cont" href="#contato">Contato</a></li>
+        <!-- <li><a class="sob" href="sobre">Times</a></li> -->
+      </ul>
+    </nav>
+
   </header>
+  
+  <!-- Video principal da pagina abertura-->
 
-  <section class="video-destaque">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CvhLERKpJh4?autoplay=1" si=ApsLiSn8TbVE_915"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
-  </section>
+  <video src="#" muted loop autoplay></video>
+  <div class="info-carro">
+    <h1 class="tes"></h1>
+    <p class="Sub-titulo"></p>
+  </div>
 
-  <section id="Home">
-    <!--Cards Destaques Jogado1-->
-    <div class="Box-Cards">
-      <div class="Flip-Card">
-        <div class="Flip-Card-inner">
-          <div class="Flip-Card-Front">
-            <div class="Flip-Card-ImgFront">
-              <img src="./Src/Imagens/FootballOne.png" alt="Descrição da imagem">
-            </div>
-            <h2>DESTAQUE</h2>
-          </div>
+  <!-- Carousel -------------------------------------------------------------------------------->
 
-          <div class="Flip-Card-Back">
-            <div class="Flip-Card-Card">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/-SgXp2Ku244?si=ULyiwMD0vK0U7KFc"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            </div>
-            <h1>10 PÊNALTIS HUMILHANTES</h1>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <!-- Fim Cards Destaques Jogado1-->
-      <!--Cards Destaques Jogado2-->
-      <div class="Flip-Card">
-        <div class="Flip-Card-inner">
-          <div class="Flip-Card-Front">
-            <div class="Flip-Card-ImgFront">
-              <img src="./Src/Imagens/FutebolBola.png" alt="Descrição da imagem">
-            </div>
-            <h2>DESTAQUE</h2>
-          </div>
+  <div class="container swiper">
+    <div class="card-wrapper">
+      <ul class="card-list swiper-wrapper">
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
 
-          <div class="Flip-Card-Back">
-            <div class="Flip-Card-Card">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/d5E-PG8wAGY?si=4u4J-SDiIny1AXNR"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            </div>
-            <h1>MELHORES JOGADAS</h1>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <!-- Fim Cards Destaques Jogado2-->
-      <!--Cards Destaques Jogado3-->
-      <div class="Flip-Card">
-        <div class="Flip-Card-inner">
-          <div class="Flip-Card-Front">
-            <div class="Flip-Card-ImgFront">
-              <img src="./Src/Imagens/jogado2.svg" alt="Descrição da imagem">
-            </div>
-            <h2>DESTAQUE</h2>
-          </div>
+            <img src="./Src/Imagens/Chuteira.png" alt="" class="card-img">
+            <p class="badge">Campo</p>
+            <h2 class="card-title"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
 
-          <div class="Flip-Card-Back">
-            <div class="Flip-Card-Card">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/3GYJn1a8-QQ?si=KgqsDboWEIc47lq5"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            </div>
-            <h1>COMO É A VÁRZEA!</h1>
-            <p></p>
-          </div>
-        </div>
-      </div>
-  </section>
+            <button class="material-icons card-button">
+              arrow_forward
 
-  <section id="destaque">
-    <div class="destaque">
-      <h2>| NOTÍCIAS</h2>
+            </button>
+
+          </a>
+        </li>
+
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+
+            <img src="./Src/Imagens/FootballOne.png" alt="" class="card-img">
+            <p class="badge footballone">Campo</p>
+            <h2 class="card-title"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+
+            <button class="material-icons card-button">
+              arrow_forward
+
+            </button>
+
+          </a>
+        </li>
+
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+
+            <img src="./Src/Imagens/FutebolBola.png" alt="" class="card-img">
+            <p class="badge bola">Campo</p>
+            <h2 class="card-title"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+
+            <button class="material-icons card-button">
+              arrow_forward
+
+            </button>
+
+          </a>
+        </li>
+
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+
+            <img src="./Src/Imagens/FutebolTwo.png" alt="" class="card-img">
+            <p class="badge chute">Campo</p>
+            <h2 class="card-title"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+
+            <button class="material-icons card-button">
+              arrow_forward
+
+            </button>
+
+          </a>
+        </li>
+
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+
+            <img src="./Src/Imagens/Chuteira.png" alt="" class="card-img">
+            <p class="badge trave">Campo</p>
+            <h2 class="card-title"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+
+            <button class="material-icons card-button">
+              arrow_forward
+
+            </button>
+          </a>
+        </li>
+      </ul>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-slide-button swiper-button-prev"></div>
+      <div class="swiper-slide-button swiper-button-next"></div>
+
     </div>
-    <!-- DiV_quandros 1 -->
-    <div class="Evs">
-      <div class="Ev">
-        <a href="https://supercopapioneer.com.br/final-allianz-parque-pioneer-data-confirmada/"><img
-            src="./Src/Imagens/Notícias/AllianParque.png" alt="Notícia"></a>
-        <h3>Várzea! Final SCP 2023 no Allianz</h3>
-        <p>27 de agosto de 2023! Está definida a data da grande final da Super Copa Pioneer Netshoes que acontecerá no
-          Allianz Parque.
-          Simplesmente um dos momentos mais aguardados na história da competição! Um dia que será épico, pra ficar
-          marcado na memória de todos os varzeanos.</p>
+  </div>
+
+  <!---------------------- Noticias ------------------------------------->
+  <section id="noticias">
+    <section id="secao">
+      <div class="secao-destaque">
+        <h2 class="linha-secao"> <span> NOTÍCIAS</span> </h2>
       </div>
 
-      <div class="Ev">
-        <a href="https://supercopapioneer.com.br/abertura-da-scp-netshoes-2023/"><img src="./Src/Imagens/Notícias/Taça.png"
-            alt="Notícia"></a>
-        <h3>Abertura da SCP Netshoes 2023!!</h3>
-        <p>Abertura da Super Copa Pioneer Netshoes 2023 registrou um público superior a 4 mil pessoas, que estiveram
-          presentes no CDC Dorotéia, um dos campos oficiais do torneio, localizado na Zona Sul de São Paulo, e
-          assistiram a vitória do Mulekada de Itaquaquecetuba por 2 a 0 sobre a equipe do Napoli da Vila Industrial, na
-          última sexta-feira.</p>
-      </div>
+      <!-- Bloco de noticias 1-->
 
-      <div class="Ev">
-        <a href="https://supercopapioneer.com.br/dias-de-um-torcedor/"><img src="./Src/Imagens/Notícias/Torcedor.png"
-            alt="Notícia"></a>
-        <h3>Dias de um torcedor</h3>
-        <p>Existem dias que fazemos parte de algo maior. Dias em que deixamos de ser apenas um para se tornar algo que
-          nos representa, que faz parte da nossa cultura, da nossa alegria, da nossa história em comum e que ficam
-          eternamente gravado nas memórias de tanta gente.</p>
-      </div>
-
-      <div class="Ev">
-        <a
-          href="https://supercopapioneer.com.br/se-liga-nos-melhores-momentos-dos-jogos-no-cdc-doroteia-realizados-no-sabado/"><img
-            src="./Src/Imagens/Notícias/MelhoresMomenntos.png" alt="Notícia"></a>
-        <h3>Se liga nos melhores momentos </h3>
-        <p>Se liga nos melhores momentos dos jogos no CDC. Dorotéia realizados no sábado, Scorpions 3 x 0 União de
-          Amigos, Favela Heliópolis 0 x 0 Ipanema
-          Batti Fácil 1 x 2 Portuguesa.</p>
-      </div>
-
-      <div class="Ev">
-        <a href="https://supercopapioneer.com.br/quartas-de-final-mec-classificado-semifinais-2/"><img
-            src="./Src/Imagens/Notícias/AlmaCopeira.png" alt="Notícia"></a>
-        <h3>Alma copeira! MEC vence o Milianos</h3>
-        <p>O MEC venceu o Milianos por 4 a 2 nas penalidades, após empate em 0 a 0 no tempo normal, e garantiu a
-          classificação para as semifinais da Super Copa Pioneer Netshoes 2023.Uma geração que vem fazendo história e
-          quer marcar de vez o nome deles na várzea. O objetivo? Ser campeão da Super Copa Pioneer Netshoes 2023, no
-          Allianz Parque.</p>
-      </div>
-
-      <div class="Ev">
-        <a
-          href="https://supercopapioneer.com.br/confira-todas-as-emocoes-de-domingo-nos-ultimos-4-jogos-da-segunda-fase-2/"><img
-            src="./Src/Imagens/Notícias/Reportagem.png" alt="Notícia"></a>
-        <h3>A SCP Netshoes foi destaque em matéria do Canal+ na França</h3>
-        <p>Ao longo desta semana, a Super Copa Pioneer Netshoes foi destaque na imprensa francesa.
-          Com o mata-mata da competição a todo vapor, a equipe do Canal+, juntamente com o jornalista Sdarmani, esteve
-          presente no CDC Dorotéia e na Arena Santa Amélia, e registraram alguns momentos que acabaram virando matéria
-          no veículo francês.
-        </p>
-      </div>
-
-      <div class="Ev">
-        <a href="https://supercopapioneer.com.br/luis-fabiano-na-super-copa-pioneer-netshoes/"><img
-            src="./Src/Imagens/Notícias/LuizFabiano.png" alt="Notícia"></a>
-        <h3>Luis Fabiano na Super Copa Pioneer Netshoes</h3>
-        <p>Torcida em peso, duas equipes de muita tradição em campo, Cristian de um lado, Rakitic do outro, além da
-          presença ilustre do artilheiro Luis Fabiano que vestiu a camisa e apoiou o time da Fazendinha. E o resultado
-          final não poderia ser diferente, um duelo equilibrado, com muita emoção e festa absurda nas arquibancadas.
-        </p>
-      </div>
-
-      <div class="Ev">
-        <a href="https://supercopapioneer.com.br/somos-100-mil-seguidores-no-instagram/"><img
-            src="./Src/Imagens/Notícias/CemMil.png" alt="Notícia"></a>
-        <h3>Somos 100 Mil Seguidores no Instgram</h3>
-        <p>Conquista essa para nós todos que reflete o crescimento da Super Copa Pioneer Netshoes.
-          Trabalho, trabalho e trabalho. Seguimos trabalhando por cada um de vocês, sempre buscando proporcionar a
-          melhor experiência possível aos nossos torcedores.
-          Vamos juntos. Gratidão, sempre! </p>
-      </div>
-    </div>
-  </section>
-  <!-- Fim da DIV_quandros 1 Eventos -->
-  <section id="Campos">
-    <div class="campos">
-      <h2>| CAMPOS</h2>
-      <p></p>
-    </div>
-    <!-- DIV quandros 2 -->
-    <div class="Cmps">
-      <div class="Cmp">
-        <img src="./Src/Imagens/Campo/CampoOne.png" alt="GaleriaOne">
-        <h3>Terra batida</h3>
-        <p>é um tipo de campo mais rústico, feito com terra compactada. É comum em campos de várzea e em áreas rurais.
-        </p>
-      </div>
-
-      <div class="Cmp">
-        <img src="./Src/Imagens/Campo/CampoTwo.png" alt="GaleriaTwo">
-        <h3>campo society</h3>
-        <p>É um tipo de campo menor do que o campo de futebol tradicional, geralmente com grama sintética e cercado por
-          uma tela ou muro. O campo society é comum em áreas urbanas e pode ser utilizado para jogos informais ou
-          competições organizadas. Além disso, também existem campos de futebol indoor, que são espaços fechados com
-          grama
-          sintética ou piso emborrachado, permitindo a prática do futebol em qualquer condição climática.</p>
-      </div>
-
-      <div class="Cmp">
-        <img src="./Src/Imagens/Campo/CampoThree.png" alt="GaleriaThree">
-        <h3>Gramado natural</h3>
-        <p> é o tipo de campo mais utilizado em jogos profissionais. É feito com grama natural e precisa de manutenção
-          constante para garantir a qualidade do campo.</p>
-      </div>
-
-      <div class="Cmp">
-        <img src="./Src/Imagens/Campo/CampoFour.png" alt="GaleriaFour">
-        <h3>Gramado sintético</h3>
-        <p>é uma opção mais acessível e de menor manutenção do que o gramado natural. É feito com fibras sintéticas e
-          pode
-          ser utilizado em diferentes condições climáticas.</p>
-      </div>
-
-      <div class="Cmp">
-        <img src="./Src/Imagens/Campo/CampoFive.png" alt="GaleriaFive">
-        <h3>Quadras de futsal</h3>
-        <p> são espaços fechados, geralmente com piso de madeira ou material sintético. São menores que os campos de
-          futebol tradicionais e exigem um jogo mais rápido e técnico.</p>
-      </div>
-
-      <div class="Cmp">
-        <img src="./Src/Imagens/Campo/CampoSix.png" alt="GaleriaSix">
-        <h3>Areia</h3>
-        <p>campos de futebol de areia são comuns em praias e parques. A areia proporciona um jogo mais desafiador,
-          exigindo maior esforço físico e técnica.</p>
-      </div>
-
-      <div class="Cmp">
-        <img src="./Src/Imagens/Campo/CampoSeven.png" alt="GaleriaSeven">
-        <h3>Grama artificial</h3>
-        <p>é uma opção intermediária entre o gramado natural e o gramado sintético. É feito com grama artificial e
-          oferece
-          uma superfície mais estável e durável.</p>
-      </div>
-
-      <div class="Cmp">
-        <img src="./Src/Imagens/Campo/CampoEight.png" alt="GaleriaEight">
-        <h3>Terreno de terra irregular</h3>
-        <p>em algumas áreas menos desenvolvidas, é comum encontrar terrenos de terra irregular utilizados para jogar
-          futebol. Embora possa ser mais desafiador jogar nessas condições, pode ser uma opção divertida para jogos
-          informais.</p>
-
-      </div>
-    </div>
-  </section>
-  <!-- Fim da DIV_quandros 2  Campos-->
-  <section id="tm">
-    <div class="tm">
-      <h2>| TIMES</h2>
-      <p></p>
-    </div>
-    <!-- DIV quandros 3 -->
-    <div class="times">
-      <div class="time">
-        <a href="https://www.varzeapedia.com.br/equipes/gr-piraporinha-de-santo-amaro/"><img
-            src="./Src/Imagens/Times/PiraporinhaSantoAmaro.png" alt="História 7"></a>
-        <h3> GR Piraporinha</h3>
-        <p>O Grêmio Recreativo Piraporinha é um time de futebol amador que representa o bairro de Santo Amaro, zona sul
-          de São Paulo, mais precisamente a região próxima à avenida MBoi Mirim.</p>
-      </div>
-
-      <div class="time">
-        <a href="https://www.varzeapedia.com.br/equipes/uniao-mooca-ec/"><img src="./Src/Imagens/Times/UniãodaMooca.png"
-            alt="História 8"></a>
-        <h3>UNIÃO MOOCA </h3>
-        <p>O União Mooca Esporte Clube, UMEC, é um time de várzea que representa o bairro de mesmo nome, Mooca,
-          localizado na Zona Leste da capital paulista. O time foi fundado numa tarde de janeiro, precisamente no dia 7
-          de janeiro de 2009.</p>
-      </div>
-
-      <div class="time">
-        <a href="https://www.varzeapedia.com.br/equipes/katatumba-de-guaianases/"><img
-            src="./Src/Imagens/Times/KatatumbadeGuaianases.png" alt="História 9"></a>
-        <h3>KATATUMBA FRA</h3>
-        <p>O Katatumba é um time de várzea do bairro Guaianases, Zona Leste de São Paulo. O nome completo do time é
-          Grêmio Recreativo Katatumba Futebol, Resenha e Amigos, por isso a sigla FRA. A equipe foi fundada oficialmente
-          dia 30 de janeiro de 2016.</p>
-      </div>
-
-      <div class="time">
-        <a href="https://www.varzeapedia.com.br/equipes/clube-atletico-lajeado/"><img src="./Src/Imagens/Times/AtlLajeado.png"
-            alt="História 10"></a>
-        <h3>ATLÉTICO LAJEADO</h3>
-        <p>O Clube Atlético Lajeado é um time de várzea que representa o bairro de mesmo nome na Zona Leste de São
-          Paulo. A equipe foi fundada por um grupo de amigos e primos que se reuniram na Rua Cabral de Ataíde, no Bairro
-          Lajeado em São Paulo.</p>
-      </div>
-
-      <div class="time">
-        <a href="https://www.varzeapedia.com.br/equipes/fala-galera-de-cidade-tiradentes/"><img
-            src="./Src/Imagens/Times/FalaGalera.png" alt="História 11"></a>
-        <h3>FALA GALERA</h3>
-        <p>A equipe do Fala Galera Futebol Clube foi fundado no bairro de Cidade Tiradentes, na Zona Leste de São Paulo,
-          em 20 de fevereiro do ano de 2012.</p>
-      </div>
-
-      <div class="time">
-        <a href="https://www.varzeapedia.com.br/equipes/amigos-de-santa-isabel/"><img
-            src="./Src/Imagens/Times/SantaIsabel.png" alt="História 12"></a>
-        <h3>SANTA ISABEL</h3>
-        <p>Em 20/04/2006, foi fundado o Amigos F.C. – Santa Isabel, pelos amigos Guilherme Werneck, Guaracy, Marcos
-          Bicalho, Nelson Machado, Dr. Paulo César.</p>
-      </div>
-
-      <div class="time">
-        <a href="https://www.varzeapedia.com.br/equipes/manchester-do-pari/"><img
-            src="./Src/Imagens/Times/ManchesterdoPari.png" alt="História 13"></a>
-        <h3>MANCHESTER DO PARI</h3>
-        <p>O Manchester é um time de futebol de várzea que representa o bairro do Pari, na região central da cidade de
-          São Paulo, fundado em 26 de julho de 2014.</p>
-      </div>
-
-      <div class="time">
-        <a href="https://www.varzeapedia.com.br/equipes/coruja-ec-pedreira/"><img src="./Src/Imagens/Times/CorujaEsporte.png"
-            alt="História 14"></a>
-        <h3>CORUJA ESPORTE </h3>
-        <p>O Coruja Esporte Clube é um time de várzea do bairro da Pedreira, Zona Sul de São Paulo e foi fundado em 5
-          demarço de 1984.</p>
-      </div>
-    </div>
-  </section>
-  <!-- Fim da DIV_quandros 3-->
-  <section id="Hta">
-    <div class="Hta">
-      <h2>| RESENHAS DA BOLA</h2>
-      <p></p>
-    </div>
-    <!-- DiV_quandros 4 -->
-    <div class="Resenhas">
-      <div class="Resenha">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/o2a-a4HbM_w?si=kfeMueaDe-27bxn1"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <h3>TENTE NÃO RIR: A CHEGADA AO FLAMENGO.</h3>
-        <p>Vampeta, um dos jogadores mais carismáticos e emblemáticos da história do futebol brasileiro, deixou a sua marca no Flamengo de uma maneira inusitada e relata como foi tentar receber o seu primeiro salário no Flamengo.</p>
-      </div>
-
-      <div class="Resenha">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ftWU3_-RpvE?si=UPmJEojT-IKdH3U6"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <h3>O SALÁRIO DO RONALDO</h3>
-        <p>Vampeta conta a história de quando Ronaldo revelou quanto ganhava por mês e fala sobre suas próprias
-          experiências na carreira de jogador de futebol. Ele menciona contratações, salários e o seu encontro com Ronaldo,
-          após a Copa do Mundo.</p>
-      </div>
-
-      <div class="Resenha">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CNuZOWqXaHA?si=_8fX4nn3ClFdRmVa"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <h3>MARCOS NA RESENHA</h3>
-        <p>Marcos conta resenha do Vampeta quando o palmeiras perdeu o mundial para o Manchester, e de quando ele foi convocado para a seleção brasileira, Marcos e um dos caras mais resenhas do futebol, não tem quem não rir das suas histórias.</p>
-      </div>
-
-      <div class="Resenha">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VPL813s-Kxw?si=gU6tw7UKkor5VgsZ"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <h3> JÚNIOR CHORAR DE RIR</h3>
-        <p>Marcos conta uma resenha que faz o Júnior chorar de rir, a resenha e sobre onde fica a capital da Venezuela, e sobre o jogador pena e o garço espanhol, resenha para você chorar de rir.
-        </p>
-      </div>
-
-      <div class="Resenha">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZBNMbVQthws?si=8yk-_lsyVqmih_rc"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <h3>CHEGADA DO JÚNIOR</h3>
-        <p>Marcos conta resenha da chegada do Júnior no palmeiro para o lugar do Roberto Carlos, Marcos chorar de rir ao vê o tamanho de Júnior, baixinho e mirrado, pensando esse, cara não joga nada.</p>
-      </div>
-
-      <div class="Resenha">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y6K7Zyw4I_c?si=ECIfH1Vkj-DiVtiG"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-
-        <h3>RESENHA DO GILMAR FUBÁ</h3>
-        <p>Gilmar Fubá conta a resenha do amigo fanho, o carro vai bate, da sua mãe na época que ele era criança, o torcedor que passou raiva na arquibancada e a resenha do delegado, resenhas para você chorar de rir.</p>
-      </div>
-
-      <div class="Resenha">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/9iAlWANtg0k?si=XmSnhau1_aCb0T3Q"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-
-        <h3>FORRÓ DO GÉRSON</h3>
-        <p>Amaral e as suas peripécias confusão com apartheid, refeição de rato e hotel com Djalminha, Amaral é um daqueles caras que conta as melhores resenhas do futebol, não tem quem não da risada.</p>
-      </div>
-
-      <div class="Resenha">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-vFXkQWN3uc?si=HzYN1yyF7tlKYv1j"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; ecrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <h3>PRIMEIRA VIAGEM</h3>
-        <p>Amaral faz a sua primeira viagem de avião, e os Jogadores fizeram Amaral acreditar ter um caixa eletrônico
-          no avião, e quando Amaral vai até o fundo do avião procurar ele da de cara com a aeromoça que fala que é tudo de graça, os jogadores não aguentam e caem na risada.</p>
-      </div>
-    </div>
-  </section>
-  <!-- Fim da DIV_quandros 4 -->
-  <footer>
-    <div class="Box-Final">
-      <div class="Empresas">
-        <div class="Empresa">
-          <img src="./Src/Icones/Logo1.png" alt="Logo da empresa">
-          <p>"Bem-vindo ao mundo da Várzea, onde o futebol é mais do que um jogo - é uma forma de vida. Nosso site é
-            dedicado a celebrar a paixão, a criatividade e a diversidade do futebol amador brasileiro, mostrando as
-            histórias incríveis, as jogadas inesquecíveis e as rivalidades intensas que fazem da Várzea um lugar único
-            no
-            mundo do esporte.</p>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="./Src/Imagens/Notícias/final.png" alt="img 1"
+            onclick="openModal('', '', './Src/Imagens/Notícias/final.png', 'https://supercopapioneer.com.br/juntos-com-podpah-super-copa-pioneer-tera-final-na-arena-inamar/')">
+          <p class="tdsh">Juntos com Podpah,
+            Super Copa Pioneer final, Arena Inamar</p>
         </div>
 
-        <div class="SiteNav">
-          <h4>Websites</h4>
-          <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#destaque">Notícias</a></li>
-            <li><a href="#Campos">Campos</a></li>
-            <li><a href="#tm">Times</a></li>
-            <li><a href="#Hta">Resenhas</a></li>
-          </ul>
+        <div class="gallery-item">
+          <img src="./Src/Imagens/Notícias/Taça.png" alt="img 2"
+            onclick="openModal('', '  ', './Src/Imagens/Notícias/Taça.png', 'https://supercopapioneer.com.br/super-copa-pioneer-netshoes-2024/')">
+          <p class="tdsh">Premiação recorde, SCP Netshoes em março de 2024</p>
         </div>
 
-        <section id="Contato">
-          <div class="MidiaSociais">
-            <div>
-              <h4>Mídias Sociais</h4>
-              <ul>
-                <li>
-                  <img src="./Src/Icones/Facebook.svg" alt="Facebook">
-                  <img src="./Src/Icones/Instagram.svg" alt="Instagram">
-                  <img src="./Src/Icones/twitter.svg" alt="Twitter">
-                  <img src="./Src/Icones/TwitterX.png" alt="Twitter">
-                </li>
-              </ul>
-            </div>
-          </div>
-          <hr>
-          <p class="Copy">&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+        <div class="gallery-item">
+          <img src="./Src/Imagens/Notícias/Torcedor.png" alt="img 3"
+            onclick="openModal('', '', './Src/Imagens/Notícias/Torcedor.png', 'https://supercopapioneer.com.br/dias-de-um-torcedor/')">
+          <p class="tdsh">Dias de um torcedor, existem dias em que nos tornamos parte de algo maior </p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="./Src/Imagens/Notícias/MMT.png" alt="img 4"
+            onclick="openModal('', '', './Src/Imagens/Notícias/MMT.png', 'https://supercopapioneer.com.br/se-liga-nos-melhores-momentos-dos-jogos-no-cdc-doroteia-realizados-no-sabado/')">
+          <p class="tdsh">Se liga nos melhores momentos dos jogos CDC</p>
+        </div>
       </div>
+
+      <!-- Modal -->
+      <div id="myModal" style="display:none;">
+        <div class="modal-content">
+          <span class="fecha-modal" onclick="closeModal()" style="cursor:pointer;">&times;</span>
+          <h2 id="modal-title"></h2>
+          <p id="modal-description"></p>
+          <img id="modal-image" src="" alt="Modal Image">
+          <a id="modal-link" href="" target="_blank">Saiba mais !</a>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Bloco de noticias 2-->
+
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="./Src/Imagens/Notícias/AlmaCopeira.png" alt="img 1"
+            onclick="openModal('', '', './Src/Imagens/Notícias/AlmaCopeira.png', 'https://supercopapioneer.com.br/quartas-de-final-mec-classificado-semifinais-2/')">
+          <p class="tdsh">O MEC venceu o Milianos nos pênaltis e se classificou para as semifinais da Super Copa Pioneer
+            Netshoes 2023</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="./Src/Imagens/Notícias/Reportagem.png" alt="img 2"
+            onclick="openModal('', '', './Src/Imagens/Notícias/Reportagem.png', 'https://supercopapioneer.com.br/confira-todas-as-emocoes-de-domingo-nos-ultimos-4-jogos-da-segunda-fase-2/')">
+          <p class="tdsh">A Super Copa Pioneer Netshoes foi destaque na imprensa francesa</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="./Src/Imagens/Notícias/LuizFabiano.png" alt="img 3"
+            onclick="openModal('', '', './Src/Imagens/Notícias/LuizFabiano.png', 'https://supercopapioneer.com.br/luis-fabiano-na-super-copa-pioneer-netshoes/')">
+          <p class="tdsh">Luis Fabiano na Super Copa Pioneer Netshoes</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="./Src/Imagens/Notícias/CemMil.png" alt="img 4"
+            onclick="openModal('', '', './Src/Imagens/Notícias/CemMil.png', 'https://supercopapioneer.com.br/somos-100-mil-seguidores-no-instagram/')">
+          <p class="tdsh">Conquista para todos nós, Seguimos trabalhando para proporcionar a melhor experiência aos
+            nossos torcedores</p>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------- Campos  ------------------------------------->
+    <section id="campos">
+      <section id="secao">
+        <div class="secao-destaque">
+          <h2 class="linha-secao"> <span> CAMPOS</span> </h2>
+        </div>
+
+        <div class="gallery-photo">
+          <img src="./Src/Imagens/Campo/CampoOne.png" alt="Terra Batida" class="thumbnail"
+            data-text=" é um tipo de campo mais rústico, caracterizado pela compactação da terra. É frequentemente encontrado em campos de várzea e em áreas rurais.">
+
+          <img src="./Src/Imagens/Campo/CampoTwo.png" alt="Campo Society" class="thumbnail"
+            data-text="O campo society é um tipo de campo menor do que o tradicional campo de futebol, geralmente coberto com grama sintética e cercado por uma tela ou muro. Comum em áreas urbanas, ele é ideal para jogos informais e competições organizadas. Além disso, existem os campos de futebol indoor, que são espaços fechados com grama sintética ou piso emborrachado, permitindo a prática do futebol em qualquer condição climática..">
+
+          <img src="./Src/Imagens/Campo/CampoThree.png" alt="Gramado Natural" class="thumbnail"
+            data-text="O gramado natural é o tipo de campo mais utilizado em jogos profissionais. Feito com grama natural, ele requer manutenção constante para garantir a qualidade do campo.">
+
+          <img src="./Src/Imagens/Campo/CampoFour.png" alt="Gramado Sintético" class="thumbnail"
+            data-text="O gramado sintético é uma opção mais acessível e de menor manutenção em comparação ao gramado natural. Feito com fibras sintéticas, ele pode ser utilizado em diferentes condições climáticas.">
+        </div>
+
+        <div id="myModalPhoto" class="modal-photo">
+          <span class="close-photo">×</span>
+          <img class="modal-content-photo" id="modalImagePhoto">
+          <div id="captionPhoto"></div>
+          <div id="additionalText"></div>
+        </div>
+
+        <br><br><br>
+        <hr>
+
+        <!-- Bloco de Campos 2-->
+
+        <div class="gallery-photo">
+          <img src="./Src/Imagens/Campo/CampoFive.png" alt="Quadras de Futsal" class="thumbnail"
+            data-text="As quadras de futsal são espaços fechados, geralmente com piso de madeira ou material sintético. Menores que os campos de futebol tradicionais, elas exigem um jogo mais rápido e técnico.">
+
+          <img src="./Src/Imagens/Campo/CampoSix.png" alt="Quadra de Areia" class="thumbnail"
+            data-text="Os campos de futebol de areia são comuns em praias e parques. A superfície arenosa proporciona um jogo mais desafiador, exigindo maior esforço físico e técnica dos jogadores.">
+
+          <img src="./Src/Imagens/Campo/CampoSeven.png" alt="Grama Artificial" class="thumbnail"
+            data-text="A grama artificial é uma opção intermediária entre o gramado natural e o gramado sintético. Feita com materiais artificiais, ela oferece uma superfície mais estável e durável.">
+
+          <img src="./Src/Imagens/Campo/CampoEight.png" alt="Terreno de Terra Irregular" class="thumbnail"
+            data-text="Em algumas áreas menos desenvolvidas, é comum encontrar terrenos de terra irregular utilizados para jogar futebol. Embora jogar nessas condições seja mais desafiador, esses terrenos podem ser uma opção divertida para jogos informais.">
+        </div>
+
+        <div id="myModalPhoto" class="modal-photo">
+          <span class="close-photo">×</span>
+          <img class="modal-content-photo" id="modalImagePhoto">
+          <div id="captionPhoto"></div>
+          <div id="additionalText"></div>
+        </div>
       </section>
-  </footer>
+      <!---------------------- Times  ------------------------------------->
+      <section id="times">
+        <section id="secao">
+          <div class="secao-destaque">
+            <h2 class="linha-secao"> <span> TIMES</span> </h2>
+          </div>
+
+          <!-- Bloco de Times 1-->
+
+          <div class="gallery">
+            <div class="gallery-item">
+              <img src="./Src/Imagens/Times/PiraporinhaSantoAmaro.png" alt="img 1"
+                onclick="openModal('GR Piraporinha', '', './Src/Imagens/Times/PiraporinhaSantoAmaro.png', 'https://www.varzeapedia.com.br/equipes/gr-piraporinha-de-santo-amaro/')">
+              <p class="tdsh">O Grêmio Recreativo Piraporinha, é um time da zona sul de São Paulo</p>
+            </div>
+
+            <div class="gallery-item">
+              <img src="./Src/Imagens/Times/UniãodaMooca.png" alt="img 2"
+                onclick="openModal('UNIÃO MOOCA', ' ', './Src/Imagens/Times/UniãodaMooca.png', 'https://www.varzeapedia.com.br/equipes/uniao-mooca-ec/')">
+              <p class="tdsh">O União Mooca Esporte Clube, é um time da Zona Leste de São Paulo</p>
+            </div>
+
+            <div class="gallery-item">
+              <img src="./Src/Imagens/Times/KatatumbadeGuaianases.png" alt="img 3"
+                onclick="openModal('KATATUMBA FRA', '', './Src/Imagens/Times/KatatumbadeGuaianases.png', 'https://www.varzeapedia.com.br/equipes/katatumba-de-guaianases/')">
+              <p class="tdsh">O Katatumba é um time de várzea do bairro Guaianases, Zona Leste de São Paulo </p>
+            </div>
+
+            <div class="gallery-item">
+              <img src="./Src/Imagens/Times/AtlLajeado.png" alt="img 4"
+                onclick="openModal('ATLÉTICO LAJEADO', '', './Src/Imagens/Times/AtlLajeado.png', 'https://www.varzeapedia.com.br/equipes/clube-atletico-lajeado/')">
+              <p class="tdsh">O Clube Atlético Lajeado é um time de várzea da Zona Leste de São Paulo</p>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- Bloco de Times 2-->
+
+          <div class="gallery">
+            <div class="gallery-item">
+              <img src="./Src/Imagens/Times/FalaGalera.png" alt="img 1"
+                onclick="openModal('FALA GALERA', '', './Src/Imagens/Times/FalaGalera.png', 'https://www.varzeapedia.com.br/equipes/fala-galera-de-cidade-tiradentes/')">
+              <p class="tdsh">Fala Galera Futebol Clube é um time da Zona Leste de São Paulo</p>
+            </div>
+
+            <div class="gallery-item">
+              <img src="./Src/Imagens/Times/SantaIsabel.png" alt="img 2"
+                onclick="openModal('SANTA ISABEL', ' ', './Src/Imagens/Times/SantaIsabel.png', 'https://www.varzeapedia.com.br/equipes/amigos-de-santa-isabel/')">
+              <p class="tdsh">Santa Isabel, é um time da Zona Leste de São Paulo</p>
+            </div>
+
+            <div class="gallery-item">
+              <img src="./Src/Imagens/Times/ManchesterdoPari.png" alt="img 3"
+                onclick="openModal('MANCHESTER DO PARI', '', './Src/Imagens/Times/ManchesterdoPari.png', 'https://www.varzeapedia.com.br/equipes/manchester-do-pari/')">
+              <p class="tdsh">O Manchester é um time de futebol do centro de São Paulo </p>
+            </div>
+
+            <div class="gallery-item">
+              <img src="./Src/Imagens/Times/CorujaEsporte.png" alt="img 4"
+                onclick="openModal('CORUJA ESPORTE', '', './Src/Imagens/Times/CorujaEsporte.png', 'https://www.varzeapedia.com.br/equipes/coruja-ec-pedreira/')">
+              <p class="tdsh">O Coruja Esporte Clube é um time da Zona Sul de São Paulo</p>
+            </div>
+          </div>
+        </section>
+        <!---------------------- Resenhas  ------------------------------------->
+        <section id="resenhas">
+          <section id="secao">
+            <div class="secao-destaque">
+              <h2 class="linha-secao"> <span> Resenha</span> </h2>
+            </div>
+
+            <!-- Bloco de Resenha 1-->
+
+            <div class="carousel">
+              <div class="carousel-inner" id="carouselInner">
+                <div class="carousel-item">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/o2a-a4HbM_w?si=N0LPAFTTmYAUxnU9"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="video-title">TENTE NÃO RIR: A CHEGADA AO FLAMENGO</div>
+                  <div class="video-description">Vampeta, um dos jogadores mais carismáticos do futebol brasileiro,
+                    relata
+                    como foi tentar receber seu primeiro salário no Flamengo.</div>
+                </div>
+
+                <div class="carousel-item">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ftWU3_-RpvE?si=h7pgpidwbZHqPpUc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="video-title">O SALÁRIO DO RONALDO</div>
+                  <div class="video-description">Vampeta conta a história de quando Ronaldo revelou quanto ganhava por
+                    mês
+                    e fala sobre suas experiências na carreira.</div>
+                </div>
+
+                <div class="carousel-item">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/CNuZOWqXaHA?si=aDykskcb_x-miUZN"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="video-title">MARCOS NA RESENHA</div>
+                  <div class="video-description">Marcos conta resenha do Vampeta quando o Palmeiras perdeu o mundial
+                    para
+                    o Manchester.</div>
+                </div>
+
+                <div class="carousel-item">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/VPL813s-Kxw?si=5T9quo25nc6RYqLH"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="video-title">JÚNIOR CHORAR DE RIR</div>
+                  <div class="video-description">Marcos conta uma resenha que faz o Júnior chorar de rir sobre a capital
+                    da Venezuela.</div>
+                </div>
+
+                <!--bloco 2-->
+
+                <div class="carousel-item">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZBNMbVQthws?si=q0xVpzOehlFdBfwV"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="video-title">CHEGADA DO JÚNIOR</div>
+                  <div class="video-description">Marcos conta resenha da chegada do Júnior no palmeiro para o lugar do
+                    Roberto Carlos, Marcos chorar de rir ao vê o tamanho de Júnior, baixinho e mirrado, pensando esse,
+                    cara não joga nada.</div>
+                </div>
+
+                <div class="carousel-item">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Y6K7Zyw4I_c?si=6So2qxQ_HVC7_nfv"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="video-title">RESENHA DO GILMAR FUBÁ</div>
+                  <div class="video-description">Gilmar Fubá conta a resenha do amigo fanho, o carro vai bate, da sua
+                    mãe
+                    na época que ele era criança, o torcedor que passou raiva na arquibancada e a resenha do delegado,
+                    resenhas para você chorar de rir.</div>
+                </div>
+
+                <div class="carousel-item">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/9iAlWANtg0k?si=T-1IuJfXHXAY5KDh"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="video-title">FORRÓ DO GÉRSON</div>
+                  <div class="video-description">Amaral e as suas peripécias confusão com apartheid, refeição de rato e
+                    hotel com Djalminha, Amaral é um daqueles caras que conta as melhores resenhas do futebol, não tem
+                    quem não da risada.</div>
+                </div>
+
+                <div class="carousel-item">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/-vFXkQWN3uc?si=Gkv_kVZJfKVW_YHi"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="video-title">PRIMEIRA VIAGEM</div>
+                  <div class="video-description">Amaral faz a sua primeira viagem de avião, e os Jogadores fizeram
+                    Amaral
+                    acreditar ter um caixa eletrônico no avião, e quando Amaral vai até o fundo do avião procurar ele da
+                    de cara com a aeromoça que fala que é tudo de graça, os jogadores não aguentam e caem na risada.
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-controls">
+                <button class="control-button" onclick="prevSlide()">❮</button>
+                <button class="control-button" onclick="nextSlide()">❯</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Icones de contato-->
+          <section class="contact">
+            <div class="main-text scroll-scale">
+
+              <h2>Contate-Me</h2>
+            </div>
+
+            <!-- Redes sociais footer website -->
+            <div class="icons">
+              <div class="icon">
+                <a href="mailto:fernando_ffernando@hotmail.com"><img src="./Src/Icones/MarketeqEmailFile.png"
+                    alt=""></a>
+              </div>
+
+              <div class="icon">
+                <a href="https://github.com/FernandoJesuss" target="_blank"><img
+                    src="./Src/Icones/SkillIconsGithubDark.png" alt=""></a>
+              </div>
+
+              <div class="icon">
+                <a href="https://www.linkedin.com/in/fernando-santos-jesus/" target="_blank"><img
+                    src="./Src/Icones/BxBxlLinkedinSquare.png" alt=""></a>
+              </div>
+            </div>
+            <div class="btn-box formBtn">
+
+            </div>
+            </form>
+          </section>
+
+          <!-- footer-->
+          <section id="contato">
+            <div class="cidademain">
+              <div class="maincidade">
+                <div class="cidade"></div>
+                <div class="cidade2"></div>
+              </div>
+
+              <div class="cidadeinfo">
+                <div class="cidadeinfo2">
+                  <p>&copy; 2024 FS todos os direitos reservados.</p>
+                </div>
+
+                <div class="cidadeinfo2 cidadeinforight">
+                  <p>Craques da Várzea<a href="#" target="_blank"></a></p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+          <!-- link swiper js-->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+          <script src="./Src/Javascript/script.js"></script>
 </body>
 
 </html>
