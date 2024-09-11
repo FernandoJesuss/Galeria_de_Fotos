@@ -709,6 +709,44 @@ a {
 
 }
 
+/*botão ao topo*/
+
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: none;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease;
+}
+
+#back-to-top.show {
+  display: block;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Responsivo*/
 
 @media (max-width: 768px) {

@@ -115,3 +115,22 @@ function prevSlide() {
 // Passar automaticamente a cada 3 segundos
 // setInterval(nextSlide, 3000);
 
+
+//botão ao topo
+
+const backToTopButton = document.getElementById('back-to-top');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+        backToTopButton.classList.add('show');
+    } else {
+        backToTopButton.classList.remove('show');
+    }
+});
+
+backToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
