@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Logo Site](image.png)
+ ![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/blob/master/Src/Icones/varoficial.png)
 
 </div>
 
