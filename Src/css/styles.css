@@ -724,6 +724,7 @@ a {
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: opacity 0.3s ease;
+  animation: pulsar 1.5s infinite;
 }
 
 #back-to-top.show {
@@ -731,21 +732,17 @@ a {
   opacity: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes pulsar {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
 
 /*Responsivo*/
 
