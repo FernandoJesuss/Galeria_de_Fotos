@@ -159,23 +159,16 @@
 <br><br>
 
 
-### Limitações
-- **Responsividade**: Não era otimizado para dispositivos móveis.
-- **Interatividade**: Falta de funcionalidades dinâmicas e interativas.
-- **Design**: Visual menos moderno e atraente.
+<h3 align="left"> Limitações</h3><br>
+<p align="left">● Responsividade: Não era otimizado para dispositivos móveis.</p><br>
+<p align="left">● Interatividade: Falta de funcionalidades dinâmicas e interativas.</p><br>
+<p align="left">● Design: Visual menos moderno e atraente.</p><br>
 
 
-
-
-
-
-
-
-
-### Melhorias na Nova Versão
-- **Responsividade**: Layout adaptável a diferentes dispositivos.
-- **Interatividade**: Adição de funcionalidades dinâmicas.
-- **Design Moderno**: Uso de frameworks modernos para um visual mais atraente.
+<h2 align="center"> Melhorias na Nova Versão </h2><br>
+<p align="left">● Responsividade: Layout adaptável a diferentes dispositivos.</p><br>
+<p align="left">● Interatividade: Adição de funcionalidades dinâmicas. </p><br>
+<p align="left">● Design Moderno: Uso de frameworks modernos para um visual mais atraente.</p><br>
 
 
 
