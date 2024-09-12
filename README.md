@@ -94,22 +94,24 @@
 <p align="left">Fãs de futebol, entusiastas do esporte em geral e pessoas interessadas em cultura pop. A galeria pode atrair tanto homens quanto mulheres, de diferentes faixas etárias e origens culturais. Além disso, pode ser um ponto de encontro para pessoas que compartilham o amor pelo futebol e apreciam a arte relacionada a esse esporte.</p> 
 <br>
 
-## Versão Antiga
+<h3 align="center"> Versão Antiga</h3>
+ 
 
-### Descrição
-A versão antiga do site apresentava um layout mais simples e menos responsivo. Utilizava principalmente HTML e CSS básicos, sem frameworks modernos.
+<h4 align="left"> Descrição</h4>
+<p align="left">A versão antiga do site apresentava um layout mais simples e menos responsivo. Utilizava principalmente HTML e CSS básicos, sem frameworks modernos.</p>
 
-### Funcionalidades
-- **Navegação Básica**: Menu de navegação simples com links para as principais seções.
-- **Conteúdo Estático**: Páginas com conteúdo estático, sem interatividade dinâmica.
-- **Design Fixo**: Layout fixo que não se ajustava bem a diferentes tamanhos de tela.
+<h3 align="left"> Funcionalidades</h3>
+<p align="left">●	Navegação Básica: Menu de navegação simples com links para as principais seções.</p><br>
+<p align="left">● Conteúdo Estático: Páginas com conteúdo estático, sem interatividade dinâmica.</p><br>
+<p align="left">● Design Fixo**: Layout fixo que não se ajustava bem a diferentes tamanhos de tela.</p><br>
 
-### Tecnologias Utilizadas
-- **HTML**: Estrutura básica das páginas.
-- **CSS**: Estilização das páginas.
-- **JavaScript**: Uso limitado para pequenas interações.
+<h3 align="left"> Tecnologias Utilizadas </h3><br
+                                               
+ <p align="left">● HTML: Estrutura básica das páginas </p>  
+ <p align="left">● CSS: Estilização das páginas.</p><br>
+ <p align="left">● JavaScript: Uso limitado para pequenas interações.</p><br>
 
-  
+
 
 <h4 align="left">2.	Escopo do Projeto</h4>
 <p align="left">●	Home – Na home o usuário terá acesso a um vídeo de apresentação da várzea, e três cardes de destaque, acesso a barra de navegação com outras sessões, Notícias, Campos, Times, Resenhas, Sobre e Contato. </p>
