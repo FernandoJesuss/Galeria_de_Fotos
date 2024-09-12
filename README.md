@@ -15,7 +15,7 @@
 
 | ![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/assets/146794044/ad9c1716-af15-470e-a925-d86c746316fe)| **<h3>Plano de Projeto</h3>**| DATI |
 | --------- | ------ | ------  |
-|   |   |  Versão 1.0.5 |
+|   |   |  Versão Antiga 1.0.5<br>Nova Versão 2.0.1|
 
 <div/>
   
@@ -241,12 +241,21 @@ Instruções detalhadas sobre como acessar e usar as versões antiga e nova do s
 <h4 align="left">2.1.	Marcos</h4>
 <p align="left">Os marcos do projeto e suas datas são apresentados na tabela abaixo:</p>
 
-|     Marcos do Projeto       | Data Término| Entregáveis                                 
-|           :---:             |   :---:     |   :---:                    
-| Inicio do projeto           | 23/10/2023  | 27/10/2023        
-| Escopo do site              | 27/10/2023  | 02/10/2023 
-| Wire-frame do site          | 02/11/2023  | 04/10/2023 
-| Fim do desenvolvimento site | 20/11/2023  | 21/11/2023           
+
+
+
+
+
+
+
+# Marcos do Projeto
+
+| Marcos do Projeto         |  Data Término | Entregáveis  | Novo Marco             | Nova Data   | Novos Entregáveis   |
+|---------------------------|---------------|--------------|------------------------|-------------|---------------------|
+| Início do projeto         | 23/10/2023    | 27/10/2023   |  Atualização do Layout |  05/09/2024 | 05/09/2024          |
+| Escopo do site            | 27/10/2023    | 02/10/2023   |  Atualização do escopo |  06/09/2024 | 06/09/2024          |
+| Wire-frame do site        | 02/11/2023    | 04/10/2023   |  Wire-frame do site    |  08/09/2024 | 08/09/2024          |
+| Fim do desenvolvimento    | 20/11/2023    | 21/11/2023   |  Atualiação concluida  |  11/09/2024 | 11/09/2024          |
 
 <br>
 <h4 align="left">3.	Equipe do Projeto</h4>
