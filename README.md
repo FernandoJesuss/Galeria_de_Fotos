@@ -176,17 +176,17 @@
 <h2 align="center"> Comparação entre Versões </h2><br>
 
 
-| Funcionalidade       | Versão Antiga | Versão Nova |
-|----------------------|---------------|--------------|
-| Layout               | Simples       | Moderno      |
-| Responsividade       | Não           | Sim          |
-| Navegação            | Básica        | Avançada     |
-| Integração com API   | Não           | Sim          |
-| Performance          | Lenta         | Rápida       |
-| Suporte a Múltiplos Dispositivos | Não | Sim          |
-| Acessibilidade       | Limitada      | Melhorada    |
+| Funcionalidade                   | Versão Antiga |  Versão Nova |
+|----------------------------------|---------------|--------------|
+| Layout                           | Simples       | Moderno      |
+| Responsividade                   | Não           | Sim          |
+| Navegação                        | Básica        | Avançada     |
+| Integração com API               | Não           | Sim          |
+| Performance                      | Lenta         | Rápida       |
+| Suporte a Múltiplos Dispositivos | Não | Sim     |
+| Acessibilidade                   | Limitada      | Melhorada    |
 
-
+<br>
 
 <h3 align="left"> Funcionalidades Adicionadas:</h3>
 
