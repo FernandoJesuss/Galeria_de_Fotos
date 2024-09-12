@@ -113,7 +113,7 @@
 
 
 <h4 align="left">2.	Escopo do Projeto</h4>
-<p align="left">●	Home – Na home o usuário terá acesso a um vídeo de apresentação da várzea, e três cardes de destaque, acesso a barra de navegação com outras sessões, Notícias, Campos, Times, Resenhas, Sobre e Contato. </p>
+<p align="left">●	Home – Na página inicial, o usuário terá acesso a um vídeo de apresentação da várzea, três cartões de destaque, e a barra de navegação para outras seções: Notícias, Campos, Times, Resenhas, Sobre e Contato. </p>
 
 <div align="center">  
   
@@ -123,7 +123,7 @@
 <br>
 
 <p align="left">
-●	Notícias – Na sessão notícias o usuário terá acesso a notícias dos acontecimentos, ao clica nas imagens o usuário será redirecionado para outro site com a notícia completa.</p> 
+●	Notícias – Na seção de notícias, o usuário terá acesso às últimas atualizações sobre os acontecimentos. Ao clicar nas imagens, o usuário será redirecionado para outro site com a notícia completa.</p> 
 
 <div align="center">  
   
@@ -132,7 +132,7 @@
 </div>
 <br>
 <p align="left">
-●	Times – Na sessão times o usuário terá acesso as histórias dos times da várzea, ao clica nas imagens o usuário será redirecionado para outro site com a história completa.</p>
+●	Times – Na seção de times, o usuário terá acesso às histórias dos times da várzea. Ao clicar nas imagens, o usuário será redirecionado para outro site com a história completa.</p>
 
 <div align="center">  
   
@@ -140,14 +140,16 @@
 
 </div>
 <br>
-<p align="left">●	Resenhas – Na sessão resenhas o usuário terá acesso a vídeo com as resenhas dos jogadores profissionais.</p>
+<p align="left">●	Resenhas – Na seção de resenhas, o usuário terá acesso a vídeos com as resenhas dos jogadores profissionais.</p>
 <div align="center">  
   
 ![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/assets/146794044/211d75ad-ad76-4046-b3bb-7360a5e24d0a)
 
 </div>
 <br>
-<p align="left">●	Sobre e Contato – Na sessão sobre e contato o usuário terá acesso as redes sociais e uma descrição sobre a nossa página, e acesso as tags home, notícias, campos, times e resenhas.</p>
+<p align="left">●	Sobre e Contato – Na seção Sobre e Contato, o usuário terá acesso às nossas redes sociais, uma descrição sobre a nossa página, e links para as seções Home, Notícias, Campos, Times e Resenhas.
+
+</p>
 
 <div align="center">  
   
