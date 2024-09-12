@@ -105,9 +105,8 @@
 <p align="left">● Conteúdo Estático: Páginas com conteúdo estático, sem interatividade dinâmica.</p><br>
 <p align="left">● Design Fixo**: Layout fixo que não se ajustava bem a diferentes tamanhos de tela.</p><br>
 
-<h3 align="left"> Tecnologias Utilizadas </h3><br
-                                               
- <p align="left">● HTML: Estrutura básica das páginas </p>  
+<h3 align="left"> Tecnologias Utilizadas </h3><br>                                               
+ <p align="left">● HTML: Estrutura básica das páginas</p><br>  
  <p align="left">● CSS: Estilização das páginas.</p><br>
  <p align="left">● JavaScript: Uso limitado para pequenas interações.</p><br>
 
