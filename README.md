@@ -181,29 +181,25 @@
 
 
 <h2 align="center"> Capturas de Tela </h2><br>
+
 <h4 align="left"> Versão Antiga </h4>
-!Versão Antiga
+
 
 <div align="center">  
   
-![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/assets/146794044/2c786312-6096-4d09-a4bf-df53b766f2ea)
+![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/blob/master/Src/layout/site%20antigo.png)
 
 </div>
 
 
 
+<h4 align="left"> Versão Nova </h4>
 
+<div align="center">  
+  
+![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/blob/master/Src/layout/site%20novo.png)
 
-
-
-
-
-
-### Versão Nova
-!Versão Nova
-
-
-
+</div>
 
 
 
