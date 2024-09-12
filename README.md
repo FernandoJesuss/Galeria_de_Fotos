@@ -231,6 +231,49 @@ Instruções detalhadas sobre como acessar e usar as versões antiga e nova do s
 
 
 
+Como Utilizar o Site C.D.C. Doroteia
+Navegação Principal:
+
+Home: A página inicial apresenta uma visão geral do site, incluindo imagens e destaques.
+Notícias: Acesse as últimas notícias relacionadas ao clube e eventos. Aqui você encontrará atualizações sobre competições, resultados e outras informações relevantes.
+Campos: Esta seção mostra os campos disponíveis para jogos e treinos, com imagens e informações sobre cada um.
+Times: Conheça os times que fazem parte do C.D.C. Doroteia. Informações sobre cada time, incluindo sua história e desempenho.
+Resenha: Uma seção dedicada a vídeos e entrevistas, onde você pode assistir a conteúdos relacionados ao clube e seus jogadores.
+Interação:
+
+Clique nos Destaques: Na página inicial, você pode clicar nos destaques de notícias e eventos para ler mais sobre cada assunto.
+Imagens e Links: Navegue pelas imagens dos campos e times; muitas vezes, elas podem levar a informações adicionais quando clicadas.
+Contato:
+
+Contate-me: No rodapé do site, você encontrará informações de contato, como links para redes sociais. Utilize esses links para se conectar com o clube ou obter mais informações.
+Responsividade:
+
+O site é responsivo, o que significa que você pode acessá-lo facilmente em dispositivos móveis e tablets, mantendo uma boa experiência de navegação.
+Dicas:
+Mantenha-se atualizado com as notícias para não perder eventos importantes.
+Explore a seção de resenha para conteúdo exclusivo sobre o clube e seus jogadores.
+Sinta-se à vontade para entrar em contato através das redes sociais para tirar dúvidas ou obter mais informações.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
