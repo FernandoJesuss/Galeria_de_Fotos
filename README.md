@@ -33,13 +33,6 @@
 <h1 align="center">  Histórico – Revisões</h1>
 
 
-
-
-
-
-
-
-
 | Data       | Versão Antiga | Descrição                       | Autor                    |     Data   | Nova Versão |       Nova Descrição       |             Autor                   |
 |------------|--------|----------------------------------------|--------------------------|------------|-------------|----------------------------|-------------------------------------|
 | 23/10/2023 | 1.0.0  | Elaboração do Documento                | Fernando de Jesus Santos | 05/09/2024 | 2.0.1       | Documento atualizado                  | Fernando de Jesus Santos |
@@ -50,28 +43,7 @@
 | 15/01/2024 | 1.0.5  | Correção de bugs e melhorias gerais    | Fernando de Jesus Santos | 11/09/2024 | 2.0.6       | Bugs corrigidos e melhorias aplicadas | Fernando de Jesus Santos |
 
 
-
-
-
-
-
 <br><br><br><br><br><br><br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <h3 align="center"> Sumário</h3>
@@ -98,7 +70,7 @@
 <br><br><br><br>
 <h4 align="left">1.	Introdução</h4>
 
-<p align="left">Este documento define o plano de projeto do sistema do Craques da Várzea.</p>
+<p align="left">Este documento estabelece o plano de projeto para o sistema Craques da Várzea.</p>
 <br>
 <h4 align="left">1.1.	Objetivos do Projeto	</h4>
 <p align="left">O objetivo deste projeto é apresentar uma coleção de imagens e vídeos para que os usuários possam visualizá-las e apreciá-las, como exibir fotos e vídeos de um evento, compartilhar memórias pessoais ou simplesmente para entretenimento.</p>
@@ -115,10 +87,9 @@
 
 <br><br><br>
 <h4 align="left">1.3.	Restrições</h4>
-<p align="left">● O sistema foi desenvolvido para plataformas web e desktop, com responsividade para dispositivos móveis.
-●	 O sistema funciona perfeitamente no Google Chrome, bem como em outros navegadores e smartphones.
-●	Neste projeto, foram utilizadas as seguintes linguagens e ferramentas: JavaScript, HTML5, CSS3, Figma e GitHub.
-</p> 
+<p align="left">● O sistema foi desenvolvido para plataformas web e desktop, com responsividade para dispositivos móveis.</p><br>
+<p align="left">● O sistema funciona perfeitamente no Google Chrome, bem como em outros navegadores e smartphones.</p><br>
+<p align="left">●	Neste projeto, foram utilizadas as seguintes linguagens e ferramentas: JavaScript, HTML5, CSS3, Figma e GitHub.</p> 
 <br>
 
 <h4 align="left">1.4.	Público alvo do projeto</h4>
