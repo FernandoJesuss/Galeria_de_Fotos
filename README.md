@@ -171,54 +171,33 @@
 <p align="left">● Design Moderno: Uso de frameworks modernos para um visual mais atraente.</p><br>
 
 
+<h2 align="center"> Comparação entre Versões </h2><br>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Comparação entre Versões
 | Funcionalidade | Versão Antiga | Versão Nova |
 |----------------|---------------|-------------|
 | Layout         | Simples       | Moderno     |
 | Responsividade | Não           | Sim         |
 
 
-
-
-
-
-
-
-
-
-
-## Capturas de Tela
-### Versão Antiga
+<h2 align="center"> Capturas de Tela </h2><br>
+<h4 align="left"> Versão Antiga </h4>
 !Versão Antiga
+
+<div align="center">  
+  
+![image](https://github.com/FernandoJesuss/Galeria_de_Fotos/assets/146794044/2c786312-6096-4d09-a4bf-df53b766f2ea)
+
+</div>
+
+
+
+
+
+
+
+
+
 
 ### Versão Nova
 !Versão Nova
