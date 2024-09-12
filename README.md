@@ -84,15 +84,33 @@
 
 <br><br><br>
 <h4 align="left">1.3.	Restrições</h4>
-<p align="left">●	O sistema será desenvolvido em plataforma (web e desk).
-●	Sistema tem pleno funcionamento no Google Chrome, e nos demais navegadores.
-●	Serão utilizadas as linguagens HTML5, CSS3 e Figma.
+<p align="left">● O sistema foi desenvolvido para plataformas web e desktop, com responsividade para dispositivos móveis.
+●	 O sistema funciona perfeitamente no Google Chrome, bem como em outros navegadores e smartphones.
+●	Neste projeto, foram utilizadas as seguintes linguagens e ferramentas: JavaScript, HTML5, CSS3, Figma e GitHub.
 </p> 
 <br>
 
 <h4 align="left">1.4.	Público alvo do projeto</h4>
 <p align="left">Fãs de futebol, entusiastas do esporte em geral e pessoas interessadas em cultura pop. A galeria pode atrair tanto homens quanto mulheres, de diferentes faixas etárias e origens culturais. Além disso, pode ser um ponto de encontro para pessoas que compartilham o amor pelo futebol e apreciam a arte relacionada a esse esporte.</p> 
 <br>
+
+## Versão Antiga
+
+### Descrição
+A versão antiga do site apresentava um layout mais simples e menos responsivo. Utilizava principalmente HTML e CSS básicos, sem frameworks modernos.
+
+### Funcionalidades
+- **Navegação Básica**: Menu de navegação simples com links para as principais seções.
+- **Conteúdo Estático**: Páginas com conteúdo estático, sem interatividade dinâmica.
+- **Design Fixo**: Layout fixo que não se ajustava bem a diferentes tamanhos de tela.
+
+### Tecnologias Utilizadas
+- **HTML**: Estrutura básica das páginas.
+- **CSS**: Estilização das páginas.
+- **JavaScript**: Uso limitado para pequenas interações.
+
+  
+
 <h4 align="left">2.	Escopo do Projeto</h4>
 <p align="left">●	Home – Na home o usuário terá acesso a um vídeo de apresentação da várzea, e três cardes de destaque, acesso a barra de navegação com outras sessões, Notícias, Campos, Times, Resenhas, Sobre e Contato. </p>
 
@@ -136,6 +154,102 @@
 
 </div>
 <br><br>
+
+
+### Limitações
+- **Responsividade**: Não era otimizado para dispositivos móveis.
+- **Interatividade**: Falta de funcionalidades dinâmicas e interativas.
+- **Design**: Visual menos moderno e atraente.
+
+
+
+
+
+
+
+
+
+### Melhorias na Nova Versão
+- **Responsividade**: Layout adaptável a diferentes dispositivos.
+- **Interatividade**: Adição de funcionalidades dinâmicas.
+- **Design Moderno**: Uso de frameworks modernos para um visual mais atraente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Comparação entre Versões
+| Funcionalidade | Versão Antiga | Versão Nova |
+|----------------|---------------|-------------|
+| Layout         | Simples       | Moderno     |
+| Responsividade | Não           | Sim         |
+
+
+
+
+
+
+
+
+
+
+
+## Capturas de Tela
+### Versão Antiga
+!Versão Antiga
+
+### Versão Nova
+!Versão Nova
+
+
+
+
+
+
+
+
+## Como Usar
+Instruções detalhadas sobre como acessar e usar as versões antiga e nova do site.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h4 align="left">2.1.	Marcos</h4>
 <p align="left">Os marcos do projeto e suas datas são apresentados na tabela abaixo:</p>
 
