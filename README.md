@@ -230,9 +230,9 @@
 
 <p align="left">● Campos: Esta seção mostra os campos disponíveis para jogos e treinos, com imagens e informações sobre cada um.</p><br>
 
-<p align="left">● Times: Conheça os times que fazem parte do C.D.C. Doroteia. Informações sobre cada time, incluindo sua história e desempenho.</p><br>
+<p align="left">● Times: Conheça os times que fazem parte do Craques da Várzea. Informações sobre cada time, incluindo sua história e desempenho.</p><br>
 
-<p align="left">● Resenha: Uma seção dedicada a vídeos e entrevistas, onde você pode assistir a conteúdos relacionados ao clube e seus jogadores.</p><br>
+<p align="left">● Resenha: Uma seção dedicada a vídeos e entrevistas, onde você pode assistir a conteúdos de resenhas de jogadores.</p><br>
 
 <h4 align="left">Interação:</h4>
 
@@ -242,7 +242,7 @@
 
 <h4 align="left">Contato:</h4>
 
- <p align="left">● Contate-me: No rodapé do site, você encontrará informações de contato, como links para redes sociais. Utilize esses links para se conectar com o clube ou obter mais informações.</p><br>
+ <p align="left">● Contate-me: No rodapé do site, você encontrará informações de contato, como links para redes sociais. Utilize esses links para se conectar para mais informações.</p><br>
  
 <h4 align="left">Responsividade:</h4>
 
@@ -251,10 +251,6 @@
 <h4 align="left">Dicas:</h4>
 
 <p align="left">● Mantenha-se atualizado com as notícias para não perder eventos importantes.</p><br>
-
-<p align="left">● Explore a seção de resenha para conteúdo exclusivo sobre o clube e seus jogadores.</p><br>
-
-<p align="left">● Sinta-se à vontade para entrar em contato através das redes sociais para tirar dúvidas ou obter mais informações.</p><br>
 
 
 <h4 align="left">2.1.	Marcos</h4>
