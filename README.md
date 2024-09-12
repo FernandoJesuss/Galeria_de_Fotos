@@ -105,7 +105,7 @@
 <h3 align="left"> Funcionalidades</h3>
 <p align="left">●	Navegação Básica: Menu de navegação simples com links para as principais seções.</p><br>
 <p align="left">● Conteúdo Estático: Páginas com conteúdo estático, sem interatividade dinâmica.</p><br>
-<p align="left">● Design Fixo**: Layout fixo que não se ajustava bem a diferentes tamanhos de tela.</p><br>
+<p align="left">● Design Fixo: Layout fixo que não se ajustava bem a diferentes tamanhos de tela.</p><br>
 
 <h3 align="left"> Tecnologias Utilizadas </h3><br>                                               
  <p align="left">● HTML: Estrutura básica das páginas</p><br>  
@@ -218,77 +218,47 @@
 
 </div>
 
+<h3 align="left">Como Usar</h3>
+<h4 align="left">Instruções detalhadas sobre como acessar e usar a nova versão do site.</h4><br>
 
 
+<h4 align="left">Navegação Principal:</h4><br>
 
+<p align="left">● Home: A página inicial apresenta uma visão geral do site, incluindo imagens e destaques.</p><br>
 
-## Como Usar
-Instruções detalhadas sobre como acessar e usar as versões antiga e nova do site.
+<p align="left">● Notícias: Acesse as últimas notícias relacionadas ao clube e eventos. Aqui você encontrará atualizações sobre competições, resultados e outras informações relevantes.</p><br>
 
+<p align="left">● Campos: Esta seção mostra os campos disponíveis para jogos e treinos, com imagens e informações sobre cada um.</p><br>
 
+<p align="left">● Times: Conheça os times que fazem parte do C.D.C. Doroteia. Informações sobre cada time, incluindo sua história e desempenho.</p><br>
 
+<p align="left">● Resenha: Uma seção dedicada a vídeos e entrevistas, onde você pode assistir a conteúdos relacionados ao clube e seus jogadores.</p><br>
 
+<h4 align="left">Interação:</h4>
 
+ <p align="left">● Clique nos Destaques: Na página inicial, você pode clicar nos destaques de notícias e eventos para ler mais sobre cada assunto.</p><br>
+ 
+ <p align="left">● Imagens e Links: Navegue pelas imagens dos campos e times; muitas vezes, elas podem levar a informações adicionais quando clicadas.</p><br>
 
+<h4 align="left">Contato:</h4>
 
-Como Utilizar o Site C.D.C. Doroteia
-Navegação Principal:
+ <p align="left">● Contate-me: No rodapé do site, você encontrará informações de contato, como links para redes sociais. Utilize esses links para se conectar com o clube ou obter mais informações.</p><br>
+ 
+<h4 align="left">Responsividade:</h4>
 
-Home: A página inicial apresenta uma visão geral do site, incluindo imagens e destaques.
-Notícias: Acesse as últimas notícias relacionadas ao clube e eventos. Aqui você encontrará atualizações sobre competições, resultados e outras informações relevantes.
-Campos: Esta seção mostra os campos disponíveis para jogos e treinos, com imagens e informações sobre cada um.
-Times: Conheça os times que fazem parte do C.D.C. Doroteia. Informações sobre cada time, incluindo sua história e desempenho.
-Resenha: Uma seção dedicada a vídeos e entrevistas, onde você pode assistir a conteúdos relacionados ao clube e seus jogadores.
-Interação:
+<p align="left">● O site é responsivo, o que significa que você pode acessá-lo facilmente em dispositivos móveis e tablets, mantendo uma boa experiência de navegação.</p><br>
 
-Clique nos Destaques: Na página inicial, você pode clicar nos destaques de notícias e eventos para ler mais sobre cada assunto.
-Imagens e Links: Navegue pelas imagens dos campos e times; muitas vezes, elas podem levar a informações adicionais quando clicadas.
-Contato:
+<h4 align="left">Dicas:</h4>
 
-Contate-me: No rodapé do site, você encontrará informações de contato, como links para redes sociais. Utilize esses links para se conectar com o clube ou obter mais informações.
-Responsividade:
+<p align="left">● Mantenha-se atualizado com as notícias para não perder eventos importantes.</p><br>
 
-O site é responsivo, o que significa que você pode acessá-lo facilmente em dispositivos móveis e tablets, mantendo uma boa experiência de navegação.
-Dicas:
-Mantenha-se atualizado com as notícias para não perder eventos importantes.
-Explore a seção de resenha para conteúdo exclusivo sobre o clube e seus jogadores.
-Sinta-se à vontade para entrar em contato através das redes sociais para tirar dúvidas ou obter mais informações.
+<p align="left">● Explore a seção de resenha para conteúdo exclusivo sobre o clube e seus jogadores.</p><br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p align="left">● Sinta-se à vontade para entrar em contato através das redes sociais para tirar dúvidas ou obter mais informações.</p><br>
 
 
 <h4 align="left">2.1.	Marcos</h4>
 <p align="left">Os marcos do projeto e suas datas são apresentados na tabela abaixo:</p>
-
-
-
-
-
-
 
 
 # Marcos do Projeto
