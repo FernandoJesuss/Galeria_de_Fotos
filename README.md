@@ -176,10 +176,25 @@
 <h2 align="center"> Comparação entre Versões </h2><br>
 
 
-| Funcionalidade | Versão Antiga | Versão Nova |
-|----------------|---------------|-------------|
-| Layout         | Simples       | Moderno     |
-| Responsividade | Não           | Sim         |
+| Funcionalidade       | Versão Antiga | Versão Nova |
+|----------------------|---------------|--------------|
+| Layout               | Simples       | Moderno      |
+| Responsividade       | Não           | Sim          |
+| Navegação            | Básica        | Avançada     |
+| Integração com API   | Não           | Sim          |
+| Performance          | Lenta         | Rápida       |
+| Suporte a Múltiplos Dispositivos | Não | Sim          |
+| Acessibilidade       | Limitada      | Melhorada    |
+
+
+
+<h3 align="left"> Funcionalidades Adicionadas:</h3>
+
+<p align="left">● Navegação: Melhoria na navegação do site.</p><br>
+<p align="left">● Integração com API: Agora suportada na nova versão.</p><br>
+<p align="left">● Performance: Aumento na velocidade de carregamento.</p><br>
+<p align="left">● Suporte a Múltiplos Dispositivos: Compatibilidade aprimorada.</p><br>
+<p align="left">● Acessibilidade: Melhorias na acessibilidade do site.</p><br>
 
 
 <h2 align="center"> Capturas de Tela </h2><br>
