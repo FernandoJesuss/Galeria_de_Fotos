@@ -34,14 +34,45 @@
 
 
 
-|     Data      |    Versão |      Descrição                    |   Autor                  |
-|    :---:      |     :---: |        :---:                      |   :---:                  |
-| 23/10/2023    |     1.0.0 | Elaboração do Documento           | Fernando de Jesus Santos |
-| 27/10/2023    |     1.0.1 | Atualizado com o escopo do site   | Fernando de Jesus Santos | 
-| 02/11/2023    |     1.0.2 | Início do desenvolvimento do site | Fernando de Jesus Santos |
-| 20/11/2023    |     1.0.3 | Fim da página inicial             | Fernando de Jesus Santos |
+
+
+
+
+
+
+| Data       | Versão Antiga | Descrição                       | Autor                    |     Data   | Nova Versão |       Nova Descrição       |             Autor                   |
+|------------|--------|----------------------------------------|--------------------------|------------|-------------|----------------------------|-------------------------------------|
+| 23/10/2023 | 1.0.0  | Elaboração do Documento                | Fernando de Jesus Santos | 05/09/2024 | 2.0.1       | Documento atualizado                  | Fernando de Jesus Santos |
+| 27/10/2023 | 1.0.1  | Atualizado com o escopo do site        | Fernando de Jesus Santos | 06/09/2024 | 2.0.2       | Escopo detalhado adicionado           | Fernando de Jesus Santos |
+| 02/11/2023 | 1.0.2  | Início do desenvolvimento do site      | Fernando de Jesus Santos | 07/09/2024 | 2.0.3       | Atualização da estrutura              | Fernando de Jesus Santos |
+| 20/11/2023 | 1.0.3  | Fim da página inicial                  | Fernando de Jesus Santos | 08/09/2024 | 2.0.4       | Página inicial atualizada             | Fernando de Jesus Santos |
+| 12/12/2023 | 1.0.4  | Adição de novas funcionalidades        | Fernando de Jesus Santos | 10/09/2024 | 2.0.5       | Novas funcionalidades implementadas   | Fernando de Jesus Santos |
+| 15/01/2024 | 1.0.5  | Correção de bugs e melhorias gerais    | Fernando de Jesus Santos | 11/09/2024 | 2.0.6       | Bugs corrigidos e melhorias aplicadas | Fernando de Jesus Santos |
+
+
+
+
+
+
 
 <br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h3 align="center"> Sumário</h3>
 <br>
